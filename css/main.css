@@ -1,0 +1,268 @@
+/*
+  Main colour: Beige #E7D6C6
+  Sub colour: Brown #AC9584
+  Accent colour 1: White #FFFFFF
+  Accent colour 2: Green #B2C8B0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+/* 1) Followed this example: https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file */
+/* The font used was from Google Fonts: https://fonts.google.com/specimen/Quicksand */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+
+body {
+  font-family: "Quicksand", Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 2rem;
+  background-color: #E7D6C6;
+  color: #AC9584;
+}
+
+/* 2) Adding a space between the sections */
+section{
+  margin-bottom:2rem; 
+
+  /* Set a background color to clearly see the change in section spacing */
+  background-color: white;  
+  padding: 1rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #AC9584;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  background-color: #AC9584;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+}
+
+nav a:hover, nav a:focus {
+  /*text-decoration: none;
+  background-color: white;*/
+  color: white;
+  background-color: #B2C8B0;
+}
+
+code {
+  background-color: rgb(178, 200, 176);
+  color: white;
+  padding: 0.5rem;
+  display: block;
+}
+
+.link {
+  color: #AC9584;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+}
+
+.button-nav:hover, .button-nav:focus {
+  color: white;
+  background-color: #B2C8B0;
+
+}
+
+/* 3) Adding a different hover and focus state styling to in-text link */
+a {
+  color: #AC9584 ;
+}
+
+a:hover, a:focus {
+  /*color: #AC9584;*/
+  color: #B2C8B0;
+}
+
+/* 4)  Adding a different hover and focus state styling to image as link */
+/* Followed this example: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+.image:hover, .image:focus {
+  opacity: 0.6;
+}
+
+/* 6) Building Forms (Shay Howe) - https://learn.shayhowe.com/html-css/building-forms/ */
+label {
+  color: #AC9584;
+}
+
+input {
+  background-color: #AC9584;
+  opacity: 80%;
+  border-color: #AC9584;
+  font: "Quicksand", Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+  text-shadow: none;
+  border-radius: 5px;
+}
+
+input:hover, input:focus {
+  background-color: #B2C8B0;
+  color: white;
+  border-color: #B2C8B0;
+}
+
+input [type='radio']:after {
+  background-color: #B2C8B0;
+}
+
+input [type='radio']:checked:after {
+  background-color: #B2C8B0;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* 5) Changing the width of paragraph element */
+/* Followed lecture examples */
+p {
+  max-width: 90%;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/* Followed these examples: https://flexboxfroggy.com/ */
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-sub {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.items-sub {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 1.5em;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.cart-sub {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.inspiration-items {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items:flex-start;
+  padding: 1em;
+}
+
+.contact-infos {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.payment-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Styling the radio button. Used the following example: https://usefulangle.com/post/389/css-radio-button-color */
+
+.radio-item label {
+  color: #AC9584;
+}
+
+input[name="option"] {
+  accent-color: #B2C8B0;
+}
+
+input[type="add"] {
+  font: "Quicksand", Helvetica, sans-serif;
+  text-align: center;
+}
+
+

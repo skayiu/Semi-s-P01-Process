@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title> P01 - Process </title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section id = "style_guide">
+
+      <header>
+        <h1>P01 - Process</h1>
+
+        <p>Style Guide Template for P01 Process.</p>
+
+        <nav>        
+          <a class="button-nav" href="#style_guide">Style Guide Home</a>
+          <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
+          <a class="button-nav" href="#text_elements">Text Elements</a>
+          <a class="button-nav" href="#combined_elements">Combined Elements</a>
+          <a class="button-nav" href="#branding_idea">Branding Idea</a>
+          <a class="button-nav" href="#brand_components">Brand Components</a>
+          <a class="button-nav" href="#citations">Citations</a>
+          
+          <a class="button-nav" href="contact.html">Contact</a>
+          <a class="button-nav" href="product-listing.html">Menu</a>
+          <a class="button-nav" href="cart.html">Cart</a>
+        </nav>
+      </header>
+    </section>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>CSS selector:</h4>
+        <p> .link </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;a class="link" href="#"&gt; Link &lt;/a&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <a class = "link" href = "#"> Link </a>
+
+        <!-- Followed the Default Button example -->
+
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class="button" href="#"&gt; Default Button &lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+        <!-- The example that was orignally in the P01 - Style Guide Template -->
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+        <p> input </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;input type = "submit" value = "Submit" /&gt;</code>
+        <code> &lt;input type = "reset" value = "Reset" /&gt;</code>
+
+        <h4> Rendered element: </h4>
+        <input type = "submit" value = "Submit" />
+        <input type = "reset" value = "Reset" />
+
+        <!-- Followed the Default Button example -->
+
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p> label, input </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;label for = "Input"&gt; Input: &lt;/label&gt; </code>
+        <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <label for = "Input"> Text input: </label>
+        <input type = "text" id = "Input" input = "Input">
+
+        <!-- Used the following resource for the code: https://blog.hubspot.com/website/html-text-box -->
+
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p> input, label </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;div class = "radio-item"&gt; </code>
+        <code> &lt;input type = "radio" id = "input1" name = "option" value = "input1"&gt;</code>
+        <code> &lt;label for = "input1"&gt; Option 1 &lt;/label&gt; &lt;br&gt; </code>
+        <code> &lt;/div&gt; </code>
+
+        <code> &lt;div class = "radio-item"&gt; </code>
+        <code> &lt;input type = "radio" id = "input2" name = "option" value = "input2"&gt;</code>
+        <code> &lt;label for = "input2"&gt; Option 2 &lt;/label&gt; &lt;br&gt; </code>
+        <code> &lt;/div&gt; </code>
+
+        <code> &lt;div class = "radio-item"&gt; </code>
+        <code> &lt;input type = "radio" id = "input3" name = "option" value = "input3"&gt;</code>
+        <code> &lt;label for = "input3"&gt; Option 3 &lt;/label&gt; &lt;br&gt; </code>
+        <code> &lt;/div&gt; </code>
+        
+        <h4> Rendered element: </h4>
+        <div class = "radio-item">
+          <input type = "radio" id = "input1" name = "option" value = "input1">
+          <label for = "input1"> Option 1 </label> <br>
+        </div>
+        <div class = "radio-item">
+          <input type = "radio" id = "input2" name = "option" value = "input2">
+          <label for = "input2"> Option 2 </label> <br>
+        </div>
+        <div class = "radio-item">
+          <input type = "radio" id = "input3" name = "option" value = "input3">
+          <label for = "input3"> Option 3 </label> <br>
+        </div>
+
+        <!-- Used the following resource for the code: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio -->
+
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p> a, .image </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;a href="https://bt21.fandom.com/wiki/CHIMMY"&gt; &lt;img src="img/chimmy.png" alt="Chimmy" style="width: 101px;height: 122px;"&gt; &lt;/a&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <a href="https://bt21.fandom.com/wiki/CHIMMY"> <img src="img/chimmy.png" alt="Chimmy" class = "image" style="width: 101px;height: 122px;"> </a>
+
+        <!-- Used the following resource for the code: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image -->
+        <!-- Used the following link for the rendered element: https://bt21.fandom.com/wiki/CHIMMY -->
+
+      </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+    </section>
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+
+        <h4>CSS selector:</h4>
+        <p> h1, h2, h3, h4 </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;h1&gt; Heading 1 &lt;/h1&gt; </code>
+        <code> &lt;h2&gt; Heading 2 &lt;/h2&gt; </code>
+        <code> &lt;h3&gt; Heading 3 &lt;/h3&gt; </code>
+        <code> &lt;h4&gt; Heading 4 &lt;/h4&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <h1> Heading 1 </h1>
+        <h2> Heading 2 </h2>
+        <h3> Heading 3 </h3>
+        <h4> Heading 4 </h4>
+
+        <!-- Did not follow any examples -->
+
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p> p </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;p&gt; Put paragraph here... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices, lectus fringilla ullamcorper iaculis, quam turpis blandit elit, a efficitur nunc mauris ac quam. Nunc efficitur erat eu ornare gravida. Cras nunc massa, ultricies eget libero id, interdum convallis erat. Nam pellentesque bibendum pellentesque. Sed laoreet erat diam, ac ornare odio congue non. In turpis ipsum, tempor a accumsan id, aliquam at diam. Mauris vel vestibulum tortor. Morbi viverra sodales facilisis. Vivamus a sapien et felis viverra pharetra vitae non mauris. In commodo velit vitae arcu consequat dapibus. Etiam cursus accumsan ante, a pretium neque tristique et. Donec in felis. &lt;/p&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <p> Put paragraph here... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices, lectus fringilla ullamcorper iaculis, quam turpis blandit elit, a efficitur nunc mauris ac quam. Nunc efficitur erat eu ornare gravida. Cras nunc massa, ultricies eget libero id, interdum convallis erat. Nam pellentesque bibendum pellentesque. Sed laoreet erat diam, ac ornare odio congue non. In turpis ipsum, tempor a accumsan id, aliquam at diam. Mauris vel vestibulum tortor. Morbi viverra sodales facilisis. Vivamus a sapien et felis viverra pharetra vitae non mauris. In commodo velit vitae arcu consequat dapibus. Etiam cursus accumsan ante, a pretium neque tristique et. Donec in felis. </p>
+
+        <!-- Did not follow any examples -->
+
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p> ol, li </p>
+
+        <h4> Sample code: </h4>
+        <code> &lt;ol&gt; </code>
+        <code> &lt;li&gt; Item 1 &lt;/li&gt; </code>
+        <code> &lt;li&gt; Item 2 &lt;/li&gt; </code>
+        <code> &lt;li&gt; Item 3 &lt;/li&gt; </code>
+        <code> &lt;/ol&gt; </code>
+
+        <h4> Rendered element: </h4>
+        <ol> 
+          <li> Item 1 </li>
+          <li> Item 2 </li>
+          <li> Item 3 </li>
+        </ol>
+
+        <!-- Used the following resource for the code: https://www.w3schools.com/html/html_lists.asp -->
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Cafe</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <nav>        
+          <a class="button-nav" href="#home"> Home </a>
+          <a class="button-nav" href="#contact"> Contact </a>
+          <a class="button-nav" href="#product-listing"> Menu </a>
+          <a class="button-nav" href="#checkout"> Cart </a>
+        </nav>
+      </section>
+
+      <section id="contact">
+        <section class="element">
+          <h3> Contact </h3>
+
+          <h4>CSS selector:</h4>
+          <p> h4, p </p>
+
+          <h4> Sample Code: </h4>
+          <code> &lt;div class = "contact-main&gt; </code>
+          <code> &lt;div class = "contact-infos&gt; </code>
+          <code> &lt;h4&gt; Location &lt;/h4&gt; </code>
+          <code> &lt;p&gt; Vancouver, BC &lt;/p&gt; </code>
+          <code> &lt;h4&gt; Contact Info &lt;/h4&gt; </code>
+          <code> &lt;p&gt; Email: heavenscloud@cafe.com &lt;/p&gt; </code>
+          <code> &lt;h4&gt; Hours of Operation &lt;/h4&gt; </code>
+          <code> &lt;p&gt; Open daily 12:00 - 22:00 &lt;/p&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "contact-main&gt; </code>
+          <code> &lt;img src="img/inspiration3.jpg" alt="Inspiration 3" style="width: 720px; height: 480px;"&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <h4> Rendered element: </h4>
+          <div class = "contact-main">
+            <div class = "contact-infos">
+              <h4> Location </h4>
+              <p> Vancouver, BC </p>
+              <h4> Contact Info </h4>
+              <p> Email: heavenscloud@cafe.ca </p>
+              <h4> Hours of Operation </h4>
+              <p> Open daily 9:00 - 22:00 </p>
+            </div>
+          </div>
+
+          <div class = "contact-main">
+            <img src="img/inspiration3.jpg" alt="Inspiration 3" style="width: 720px; height: 480px;">
+          </div>
+        </section>
+      </section>
+
+      <section id="product-listing">
+        <section class="element">
+
+          <h3> Product/Service Listing </h3>
+
+          <h4>CSS selector:</h4>
+          <p> h2, .menu-items, .menu-sub, .image, h5, input </p>
+
+          <h4> Sample code: </h4>
+          <code> &lt;h2&gt; Menu - Order Online Available &lt;/h2&gt;</code>
+
+          <code> &lt;div class = "menu-items"&gt; </code>
+
+          <code> &lt;div class = "menu-sub"&gt; </code>
+          <code> &lt;a href="https://www.siftandsimmer.com/cold-brew-coffee-with-espresso-option/"&gt; &lt;img src="img/cold_brew.jpg" alt="Cold Brew" style="width: 180px;height: 270px;"&gt; &lt;/a&gt; </code>
+          <code> &lt;h5&gt; Cold Brew &lt;/h3&gt;</code>
+          <code> &lt;h5&gt; $5.25 &lt;/h3&gt;</code>
+          <code> &lt;input type = "add" value = "Add to cart" /&gt;</code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "menu-sub"&gt; </code>
+          <code> &lt;a href="https://www.siftandsimmer.com/iced-hojicha-latte/"&gt; &lt;img src="img/hojicha_latte.jpg" alt="Hojicha Latte" style="width: 180px;height: 270px;"&gt; &lt;/a&gt; </code>
+          <code> &lt;h5&gt; Hojicha Latte &lt;/h3&gt;</code>
+          <code> &lt;h5&gt; $6.50 &lt;/h3&gt;</code>
+          <code> &lt;input type = "add" value = "Add to cart" /&gt;</code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "menu-sub"&gt; </code>
+          <code> &lt;a href="https://www.siftandsimmer.com/homemade-matcha-espresso-fusion/"&gt; &lt;img src="img/matcha_expresso_latte.jpg" alt="Matcha Expresso Latte" style="width: 180px;height: 270px;"&gt; &lt;/a&gt; </code>
+          <code> &lt;h5&gt; Matcha Expresso Latte &lt;/h3&gt;</code>
+          <code> &lt;h5&gt; $7.00 &lt;/h3&gt;</code>
+          <code> &lt;input type = "add" value = "Add to cart" /&gt;</code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "menu-sub"&gt; </code>
+          <code> &lt;a href="https://www.siftandsimmer.com/sakura-strawberry-latte/"&gt; &lt;img src="img/sakura_strawberry_latte.jpg" alt="Sakura Strawberry Latte" style="width: 180px;height: 270px;"&gt; &lt;/a&gt; </code>
+          <code> &lt;h5&gt; Sakura Strawberry Latte &lt;/h3&gt;</code>
+          <code> &lt;h5&gt; $6.50 &lt;/h3&gt;</code>
+          <code> &lt;input type = "add" value = "Add to cart" /&gt;</code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "menu-sub"&gt; </code>
+          <code> &lt;a href="https://www.siftandsimmer.com/sakura-lychee-fizz/"&gt; &lt;img src="img/sakura_lychee_fizz.jpg" alt="Iced Sakura Lychee Fizz" style="width: 180px;height: 270px;"&gt; &lt;/a&gt; </code>
+          <code> &lt;h5&gt; Iced Sakura Lychee Fizz &lt;/h3&gt;</code>
+          <code> &lt;h5&gt; $6.75 &lt;/h3&gt;</code>
+          <code> &lt;input type = "add" value = "Add to cart" /&gt;</code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;/div&gt; </code>
+
+          <h4> Rendered element: </h4>
+          <h2> Menu - Order Online Available </h2>
+
+          <div class = "menu-items">
+            <div class = "menu-sub>"
+              <a href="https://www.siftandsimmer.com/cold-brew-coffee-with-espresso-option/"> <img src="img/cold_brew.jpg" alt="Cold Brew" class = "image" style="width: 180px; height: 270px;"> </a>
+              <h5> Cold Brew </h5> 
+              <h5> $5.25 </h5>
+              <input type = "add" class = "add" value = "Add to cart" />
+            </div>
+
+            <div class = "menu-sub>"
+              <a href="https://www.siftandsimmer.com/iced-hojicha-latte/"> <img src="img/hojicha_latte.jpg" alt="Hojicha Latte" class = "image" style="width: 180px; height: 270px;"> </a>
+              <h5> Hojicha Latte </h5>
+              <h5> $6.50 </h5>
+              <input type = 'add' value = "Add to cart" />
+            </div>
+
+            <div class = "menu-sub>"
+              <a href="https://www.siftandsimmer.com/homemade-matcha-espresso-fusion/"> <img src="img/matcha_expresso_latte.jpg" alt="Matcha Expresso Latte" class = "image" style="width: 180px; height: 270px;"> </a>
+              <h5> Matcha Expresso Latte </h5>
+              <h5> $7.00 </h5>
+              <input type = "add" value = "Add to cart" />
+            </div>
+
+            <div class = "menu-sub>"
+              <a href="https://www.siftandsimmer.com/sakura-strawberry-latte/"> <img src="img/sakura_strawberry_latte.jpg" alt="Sakura Strawberry Latte" class = "image" style="width: 180px; height: 270px;"> </a>
+              <h5> Sakura Strawberry Latte </h5>
+              <h5> $6.50 </h5>
+              <input type = "add" value = "Add to cart" />
+            </div>
+
+            <div class = "menu-sub>"
+              <a href="https://www.siftandsimmer.com/sakura-lychee-fizz/"> <img src="img/sakura_lychee_fizz.jpg" alt="Sakura Lychee Fizz" class = "image" style="width: 180px; height: 270px;"> </a>
+              <h5> Iced Sakura Lychee Fizz </h5>
+              <h5> $6.75 </h5>
+              <input type = "add" value = "Add to cart" />
+            </div>
+          </div>
+
+        </section>
+      </section>
+
+      <section id="payment">
+        <section class="element">
+
+          <h3> Payment Type </h3>
+
+          <h4>CSS selector:</h4>
+          <p> .radio-item, h2, label, input </p>
+
+          <h4> Sample code: </h4>
+
+          <code> &lt;h2&gt; Contact Information: &lt;/h2&gt; </code>
+          
+          <code> &lt;div class = "payment-info"&gt; </code>
+          <code> &lt;label for = "Input"&gt; Name: &lt;/label&gt; </code>
+          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "payment-info"&gt; </code>
+          <code> &lt;label for = "Input"&gt; Phone number: &lt;/label&gt; </code>
+          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;h2&gt; Payment Method: &lt;/h2&gt; </code>
+
+          <code> &lt;div class = "radio-item"&gt; </code>
+          <code> &lt;input type = "radio" id = "input1" name = "option" value = "input1"&gt;</code>
+          <code> &lt;label for = "input1"&gt; Pay in person &lt;/label&gt; &lt;br&gt; </code>
+          <code> &lt;input type = "submit" value = "Submit" /&gt;</code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "radio-item"&gt; </code>
+          <code> &lt;input type = "radio" id = "input2" name = "option" value = "input2"&gt;</code>
+          <code> &lt;label for = "input2"&gt; Gift card &lt;/label&gt; &lt;br&gt; </code>
+          <code> &lt;label for = "Input"&gt; Gift card # &lt;/label&gt; </code>
+          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "radio-item"&gt; </code>
+          <code> &lt;br&gt;&lt;input type = "radio" id = "input3" name = "option" value = "input3"&gt;</code>
+          <code> &lt;label for = "input3"&gt; Debit card &lt;/label&gt; &lt;br&gt; </code>
+          <code> &lt;label for = "Input"&gt; Debit card # &lt;/label&gt; </code>
+          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "radio-item"&gt; </code>
+          <code> &lt;br&gt; &lt;input type = "radio" id = "input4" name = "option" value = "input4"&gt;</code>
+          <code> &lt;label for = "input3"&gt; Credit card &lt;/label&gt; &lt;br&gt; </code>
+          <code> &lt;label for = "Input"&gt; Credit card # &lt;/label&gt; </code>
+          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;br&gt;&lt;input type = "submit" value = "Submit" /&gt;</code>
+
+          <h4> Rendered element: </h4>
+
+          <h2> Contact Information </h2>
+      
+          <div class = "payment-info">
+            <label for = "Input"> Name: </label>
+            <input type = "text" id = "Input" input = "Input">
+          </div>
+
+          <div class = "payment-info">
+            <label for = "Input"> Phone number: </label>
+            <input type = "text" id = "Input" input = "Input">
+          </div>
+
+          <h2> Payment Method: </h2>
+
+          <div class = "radio-item">
+            <input type = "radio" id = "input1" name = "option" value = "input1">
+            <label for = "input1"> Pay in person </label> <br>
+          </div>
+
+          <div class = "radio-item">
+            <br> <input type = "radio" id = "input2" name = "option" value = "input2">
+            <label for = "input2"> Gift card </label> <br>
+            <label for = "Input"> Gift card # </label>
+            <input type = "text" id = "Input" input = "Input">
+          </div>
+
+          <div class = "radio-item">
+            <br> <br> <input type = "radio" id = "input3" name = "option" value = "input3">
+            <label for = "input3"> Debit card </label> <br>
+            <label for = "Input"> Debit card # </label>
+            <input type = "text" id = "Input" input = "Input">
+          </div>
+
+          <div class = "radio-item">
+            <br> <br> <input type = "radio" id = "input4" name = "option" value = "input4">
+            <label for = "input4"> Credit card </label> <br>
+            <label for = "Input"> Credit card # </label>
+            <input type = "text" id = "Input" input = "Input">
+          </div>
+
+          <br> <br> <input type = "submit" value = "Submit" />
+        </section>
+      </section>
+
+      <section id="checkout">
+        <section class="element">
+          <h3>Cart</h3>
+
+          <h4>CSS selector:</h4>
+          <p> .checkout-items, .checkout-sub, h4, p, h3, .button-nav </p>
+
+          <h4> Sample code: </h4>
+          <code> &lt;h2&gt; Order Summary &lt;/h2&gt; </code>
+
+          <code> &lt;div class = "cart-items"&gt; </code>
+          <code> &lt;img src="img/hojicha_latte.jpg" alt="Hojicha Latte" style="width: 90px;height: 135px;"&gt; </code>
+          <code> &lt;div class = "cart-sub"&gt; </code>
+          <code> &lt;h4&gt; Hojicha Latte &lt;/h4&gt; </code>
+          <code> &lt;p&gt; Qty: 1 &lt;/p&gt; </code>
+          <code> &lt;/div&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;div class = "cart-items"&gt; </code>
+          <code> &lt;img src="img/sakura_strawberry_latte.jpg" alt="Sakura Strawberry Latte" style="width: 90px;height: 135px;"&gt; </code>
+          <code> &lt;div class = "cart-sub"&gt; </code>
+          <code> &lt;h4&gt; Sakura Strawberry Latte &lt;/h4&gt; </code>
+          <code> &lt;p&gt; Qty: 1 &lt;/p&gt; </code>
+          <code> &lt;/div&gt; </code>
+          <code> &lt;/div&gt; </code>
+
+          <code> &lt;h3&gt; Total: $13.00 CAD &lt;/h3&gt; </code>
+          <code>&lt;a class="button-nav"  href="payment.html"&gt;Checkout&lt;/a&gt;</code>
+
+          <h4> Rendered element: </h4>
+
+          <h2> Order Summary: </h2>
+
+          <div class = "cart-items">
+            <img src="img/hojicha_latte.jpg" alt="Hojicha Latte" class = "image" style="width: 90px; height: 135px;">
+            <div class = "cart-sub">
+              <h4> Hojicha Latte </h4>
+              <p> Qty: 1 </p>
+            </div>
+          </div>
+
+          <div class = "cart-items">
+            <img src="img/sakura_strawberry_latte.jpg" alt="Sakura Strawberry Latte" class = "image" style="width: 90px; height: 135px;">
+              <div class = "cart-sub">
+                <h4> Sakura Strawberry Latte </h4>
+                <p> Qty: 1 </p>
+              </div>
+          </div>
+
+          <h3> Total: $13.00 CAD </h3>
+          <a class="button-nav" href="payment.html">Checkout</a>
+          
+        </section>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+<!-- BRAND IDEA -->
+
+    <section id = "branding_idea">
+      <section class="element">
+
+        <h2> Branding Idea </h2>
+
+        <h3> What does the company do or offer? </h3>
+        <p> The company is a cafe that offers refreshments while providing a relaxing social space for its potential customers. The menu features a variety of refreshments like coffee, tea and teas. On the company site, it will show its company location, contact information, items that are on their menu and an online ordering system that allows customers to pay directly on the site.</p>
+
+        <h3> Who is the company to potential customers? </h3>
+        <p> As the company is a cafe, it offers potential customers a place to sit and relax, a place to study and do work, or a place to spend time with friends and family. With the website, the company hopes to give potential customers an easy way to view the cafe's menu and order online. Clicking into the menu and ordering the drinks will be straightforward so it can cater to a wider range of ages for people to use. </p>
+
+        <h3> Why might this company entice someone to purchase a product or service? </h3>
+        <p> With a simple and minimalistic style website layout, those who visit the website can easily navigate around. Moreover, the website can provide details of what the drinks are made with and how much it is. Along with the option to order drinks online on the website, it gives potential customers an opportunity to skip the lineup for on-the-go pickups or just order at their table directly for those who wants to stay a longer period of time. </p>
+      </section>
+
+    </section>
+
+    <!-- BRAND COMPONENTS -->
+    <section id = "brand_components">
+      <section class="element">
+
+        <h2> Brand Components </h2>
+
+        <h3> Fonts </h3>
+        
+        <div class = "items">
+          <div class = "items-sub">
+            <h5> Main font - Quicksand Bold 700 </h5>
+            <a href="https://fonts.google.com/specimen/Quicksand?preview.text=Quicksand&preview.text_type=custom"> <img src="img/font-bold.png" alt="Font 1" class = "image" style="width: 205px;height: 89px;"> </a>
+          </div>
+
+          <div class = "items-sub">
+            <h5> Sub font - Quicksand Semibold 600</h5>
+            <a href="https://fonts.google.com/specimen/Quicksand?preview.text=Quicksand&preview.text_type=custom"> <img src="img/font-semibold.png" alt="Font 2" class = "image" style="width: 205px;height: 89px;"> </a>
+          </div>
+
+          <div class = "items-sub">
+            <h5> Sub font - Quicksand Regular 400 </h5>
+            <a href="https://fonts.google.com/specimen/Quicksand?preview.text=Quicksand&preview.text_type=custom"> <img src="img/font-regular.png" alt="Font 2" class = "image" style="width: 205px;height: 89px;"> </a>
+          </div>
+        </div>
+      
+        <p> The font chosen is a sans-serif font that has a simple and round look to it. With using a font weight, it helps to create and keep a minimalistic style to the website with it still being legible on a screen. The main font with the font weight bold 700 will be used for headings like h1, h2 and h3. The first sub font with the font weight semibold 600 will be used for h4 headings. Lastly, the sub font with the font weight regular 400 will be used for p. </p>
+
+
+        <h3> Colour Palette </h3>
+        <div class = "items">
+          <div class = "items-sub">
+            <h5> Main colour - #d9cebe </h5>
+            <img src="img/Beige.png" alt="Beige" style="width: 150px; height: 150px;">
+          </div>
+          <div class = "items-sub">
+            <h5> Sub colour - #ac9585 </h5>
+            <img src="img/Brown.png" alt="Brown" style="width: 150px; height: 150px;">
+          </div>
+          <div class = "items-sub">
+            <h5> Accent colour - #ffffff </h5>
+            <img src="img/White.png" alt="White" style="width: 150px; height: 150px;">
+          </div>
+          <div class = "items-sub">
+            <h5> Accent colour - #b2c8b0 </h5>
+            <img src="img/Green.png" alt="Green" style="width: 150px; height: 150px;">
+          </div>
+        </div>
+        <p> The colour palette is chosen to reflect the colours of a matcha expresso latte. The main colour is used for the web page background colour. The sub colour is used as the main font colour and link navigation button background colour. The white accent colour is used as the background for sections and also the font colour of link navigation buttons. Lastly, the green accent colour is used for hovers. The green accent colour adds a pop to the existing soft warm brown tones and helps to highlight and give emphasis to the existing elements on the web page. </p>
+
+        <h3> Potential Imagery and/or Art Direction </h3>
+        <ul>
+          <li> Simplicity and minalistic </li>
+          <li> Clean layout </li>
+          <li> Soft pastel colours with warm tones being the main colours and cool tones as the accent </li>
+        </ul>
+
+        <h4> Moodboard/Inspiration </h4>
+        <div class = "inspiration-items">
+          <img src="img/inspiration1.jpg" alt="Inspiration 1" style="width: 480px; height: 320px;">
+          <img src="img/inspiration3.jpg" alt="Inspiration 3" style="width: 480px; height: 320px;">
+          <img src="img/inspiration4.jpg" alt="Inspiration 4" style="width: 482px; height: 320px;">
+          <img src="img/inspiration2.png" alt="Inspiration 2" style="width: 400.4px; height: 320px;">
+        </div>
+
+      </section>
+
+    </section>
+
+    <section id="citations">
+      <section class="element">
+        <h2>Citations</h2>
+
+        <ul>
+          <li> Andrew Paglinawan. (Designer). (2008). <strong> Google Fonts Quicksand [Webpage] </strong>. Retrieved from <a href="#">https://fonts.google.com/specimen/Quicksand </a>.</li>
+          <li> Michelle. (Blogger). (2022). <strong>Cold Brew Coffee with Expresso Option [Webpage]</strong>. Retrieved from <a href="#"> https://www.siftandsimmer.com/cold-brew-coffee-with-espresso-option/ </a>.</li>
+          <li> Michelle. (Blogger). (2022). <strong>Sakura Strawberry Latte [Webpage]</strong>. Retrieved from <a href="#">https://www.siftandsimmer.com/sakura-strawberry-latte/ </a>.</li>
+          <li> Michelle. (Blogger). (2021). <strong>Homemade Matcha Expresso Fusion [Webpage]</strong>. Retrieved from <a href="#"> https://www.siftandsimmer.com/homemade-matcha-espresso-fusion/ </a>.</li>
+          <li> Michelle. (Blogger). (2019). <strong>Iced Hojicha Latte [Webpage]</strong>. Retrieved from <a href="#"> https://www.siftandsimmer.com/iced-hojicha-latte/ </a>.</li>
+          <li> Michelle. (Blogger). (2022). <strong>Sakura Lychee Fizz [Webpage]</strong>. Retrieved from <a href="#"> https://www.siftandsimmer.com/sakura-lychee-fizz/ </a>.</li>
+          <li> https://assets.hongkiat.com/uploads/clean-simple-minimalist-website-design/tinker.jpg </li>
+          <li> Osume. (Company). (2022). <strong>dalgona keycaps [Webpage]</strong>. Retrieved from <a href="#"> https://osumekeys.com/products/dalgona </a>.</li>
+          <li> (n.d.). <strong>Interior of the Japanese Cafe [Image]</strong>. Retrieved from <a href="#">https://cdn.decoist.com/wp-content/uploads/2019/02/Fabulous-and-cheerful-interior-of-the-Japanese-cafe.jpg </a>.</li>
+          <li> (n.d.). <strong>Cafe Interior [Image]</strong>. Retrieved from <a href="#">https://cdn.thespaces.com/wp-content/uploads/2021/07/NOLA.jpg </a>.</li>
+        </ul>
+        <p> References used for following examples: </p>
+        <ul>
+          <li> https://blog.hubspot.com/website/html-text-box </li>
+          <li> https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio </li>
+          <li> https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image </li>
+          <li> https://bt21.fandom.com/wiki/CHIMMY </li>
+          <li> https://www.w3schools.com/html/html_lists.asp </li>
+          <li> https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file </li>
+          <li> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons </li>
+          <li> https://www.w3schools.com/howto/howto_css_image_overlay.asp </li>
+          <li> https://learn.shayhowe.com/html-css/building-forms/ </li>
+          <li> https://flexboxfroggy.com/ </li>
+          <li> https://usefulangle.com/post/389/css-radio-button-color </li>
+        </ul>
+      </section>
+
+    </section>
+
+  </body>
+</html>
