@@ -1,0 +1,330 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 350;
+  font-size: 0.9rem;
+  padding: 2rem;
+  background-color: #ece5db;
+  color: #524f4a;
+}
+
+/* Element that spans half the width of the body */
+/* Reference for width calculation: https://stackoverflow.com/questions/50404818/list-items-width-50-but-have-margin-take-out-of-their-width */
+.element {
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+  width: calc(50% - 1rem);
+  background-color: #f3f1ea;
+}
+
+/* Element that spans the entire width of the body */
+.element_full {
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: #f3f1ea;
+}
+
+
+h1{
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #c8c1a6;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  border-left: 0.3rem solid #c8c1a6;
+  padding-left: 0.5rem;
+}
+
+h4,strong {
+  margin-bottom: 0.25rem;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+hr{
+  border-top: 1px dashed #c8c1a6;
+  margin: 2rem 0 1rem 0;
+}
+
+/* Styling for links */
+a{
+  color: #bc716c;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  text-decoration: none;
+  color: #caa6a0;
+}
+
+img, a img{
+  width: 100%;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+a img:hover{
+  opacity: 80%;
+}
+
+/* Styling for code */
+code {
+  background-color: white;
+  padding: 0.5rem;
+  display: block;
+}
+
+/* Styling for lists */
+ul li, ol li{
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/* Styling for input and textarea */
+input, textarea{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation menu */
+
+/* Reference: https://stackoverflow.com/questions/43431856/remove-blank-spaces-between-buttons-in-html-css*/
+/* Reference used to remove spaces between navigation bar items*/
+nav{
+  background-color: #746f58;
+  font-size: 0;
+}
+
+/* Styling for navigation menu buttons */
+.nav_button {
+  padding: 1rem 3rem 0.75rem 3rem;
+  color: white;
+  background-color: #746f58;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+.nav_button:hover, .nav_button:focus {
+  background-color: #beb9a8;
+  color: white;
+}
+
+/* Styling for navigation logo button */
+.nav_logo{
+  background-color: #524f4b;
+  font-family: 'Josefin Sans', sans-serif;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.nav_button_logo {
+  padding: 1rem 8rem 0.75rem 3rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.nav_button_logo:hover, .nav_button_logo:focus{
+  color: white;
+}
+
+.nav_logo:hover, .nav_logo:focus {
+  color: #ece5db;
+  background-color: #615e59;
+}
+
+/* Styling for default button*/
+button{
+  border: none;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 3rem 1rem 3rem;
+  color: white;
+  background-color: #746f58;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+.button:hover, .button:focus {
+  background-color: #beb9a8;
+  color: white;
+}
+
+/* Styling for reset button */
+.reset{
+  display: inline-block;
+  padding: 1rem 3rem 1rem 3rem;
+  color: white;
+  background-color: #c8c1a6;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+.reset:hover, .reset:focus {
+  background-color: #ded7c6;
+  color: white;
+}
+
+/* Banner for Product Page */
+.banner_product{
+  /* Source: Learned from IAT235 */
+  padding: 3rem;
+  background-image: url("../img/bird7.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+/* Banner for Booking Page*/
+.banner_visit{
+  /* Source: Learned from IAT235 */
+  padding: 3rem;
+  background-image: url("../img/cafe_10.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+/* Text within banner*/
+.banner_text{
+  padding-top: 5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/* Styling for product/service */
+/* Styling for the cards that display the information of the birds */
+.bird_card{
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f3f1ea;
+}
+
+/* Styling for headings inside the cards */
+.bird_header{
+  width: 100%;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+}
+
+
+/* Styling for booking form */
+/* Styling for flexbox (.box) and flexbox children (.box_form) */
+.box{
+  background-color: #f3f1ea;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box_form h4{
+  margin-bottom: 1rem;
+}
+
+.box_form label{
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.box_form input, .box_form textarea{
+  margin: 0 1.5rem 1.2rem 0;
+  padding: 0.5rem 1rem 0.5rem 0.7rem;
+  border: 0.1rem solid #746f58;
+  background-color: #faf8f4;
+  width: 100%;
+}
+
+.box_form_item_col{
+  margin-right: 1rem;
+}
+
+.box_form_item_col input {
+  margin: 0 1.5rem 1.2rem 0;
+  padding: 0.5rem 1rem 0.5rem 0.7rem;
+  border: 0.1rem solid #746f58;
+  background-color: #faf8f4;
+  width: 100%;
+}
+
+.box_form input:hover, .box_form textarea:hover, .box_form input:focus, .box_form textarea:focus{
+  background-color: white;
+  border-color:#ada276;
+}
+
+.box_form textarea{
+  width: 100%;
+  overflow: auto;
+  margin-top: 0.5rem;
+}
+
+/* Styling for checkout/booking form */
+.box_checkout, .box_booking{
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box_checkout .button, .box_booking .button{
+  margin: 2rem 0 1rem 0;
+}
+
+/* Styling for items within the checkout/booking form */
+.box_checkout_item, .box_booking_item{
+  width: 60%;
+  background-color: #f3f1ea;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for summary of "cart" items */
+.box_checkout_details{
+  background-color: white;
+  padding: 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+/* Styling for text inside the checkout cart */
+.prices, .total{
+  float:right;
+}
+
+.title{
+  padding-top: 0.5rem;
+}
