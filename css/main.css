@@ -104,6 +104,13 @@ code {
   color: #AC9584;
 }
 
+.item-link {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #AC9584;
+}
+
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
