@@ -10,179 +10,18 @@ nav{
     justify-content: space-between;
 }
 
-.nav_right, .nav_button, .nav_logo{
-    display: flex;
-}
-
-/* Styling for the flexbox */
-
-.box {
-
-	display: -webkit-flex; /* For support in a series of Webkit browsers */
-	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
-
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-
-    -webkit-align-items: flex-start;
-    -ms-align-items: flex-start;
-    align-items: flex-start;
-
-    flex-direction: row;
-
-}
-
-.box_elements {
-
-	display: -webkit-flex; /* For support in a series of Webkit browsers */
-	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
-
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-
-	-webkit-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-
-    -webkit-align-items: stretch;
-    -ms-align-items: stretch;
-    align-items: stretch;
-
-    flex-direction: row;
-
-}
-
-/* Flexbox for the bird adoption page*/
-.bird_card{
-    max-width: 30%;
-}
-
-.bird_card img{
-    width: 100%;
-    height: 15rem;
-    object-fit: cover;
-}
-
-.product_bird_card{
-    max-width: 90%;
-}
-
-.product_bird_card img{
-    width: 100%;
-    height: 15rem;
-    object-fit: cover;
-}
-
-.banner_product, .banner_visit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Flexbox for the form*/
-
-.box_checkout, .box_booking {
-
-	display: -webkit-flex; /* For support in a series of Webkit browsers */
-	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
-
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-
-    -webkit-align-items: flex-start;
-    -ms-align-items: flex-start;
-    align-items: flex-start;
-
-    flex-direction: row;
-
-}
-
-.box_form{
-    -webkit-flex: 1 1 0;
-	-ms-flex: 1 1 0;
-    flex: 1 1 0;
-}
-
-.box_form_item{
-    -webkit-flex: 1 1 auto;
-	-ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-}
-
-.box_form_item_col{
-    display: inline-block;
-}
-
-.box_form_button{
-    display: flex;
-    justify-content: center;
-}
-
 @media screen and (max-width: 75rem){
-
-    .bird_card{
-        max-width: 45%;
-    }
-
-    .box_form{
-        flex-basis: auto;
+    header{
+        flex-direction: column;
     }
     
 }
 
 @media screen and (max-width: 50rem){
-    nav, .box, .box_elements{
+    nav{
         flex-direction: column;
+        width: 90%;
+        text-align: center;
     }
-
-    .nav_logo, .nav_right{
-        justify-content: center;
-    }
-
-    .nav_button {
-        padding: 1rem 2rem 0.75rem 2rem;
-    }
-
-    .nav_button_logo {
-        padding: 1rem 3rem 0.75rem 3rem;
-    }
-
-    .element{
-        width: 100%;
-    }
-    
-    .bird_card{
-        max-width: 100%;
-    }
-
-    .box_form_item_col{
-        -webkit-flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-
-        display: block;
-        align-items: baseline;
-
-        margin-right: 0;
-    }
-
-    .box_checkout_item, .box_booking_item{
-        width: 100%;
-    }
-
 }
 
