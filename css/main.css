@@ -111,10 +111,6 @@ code {
   color: #AC9584;
 }
 
-img{
-  width: 100%;
-}
-
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
@@ -251,6 +247,11 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.about-main img{
+  width: 90%;
+  max-width: 1080px;
 }
 
 .about-sub {
