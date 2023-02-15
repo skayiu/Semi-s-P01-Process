@@ -208,6 +208,11 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 0.5rem;
+}
+
+.menu-items img{
+  width: 180px;
 }
 
 .items {

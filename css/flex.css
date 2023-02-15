@@ -29,5 +29,9 @@ nav{
         width: 90%;
         text-align: center;
     }
+
+    .menu-items img{
+        width: 60%;
+      }
 }
 
