@@ -325,6 +325,114 @@
         </section>
       </section>
 
+      <section id="reservations">
+        <section class="element">
+
+          <h3> Reservations </h3>
+
+          <h4> CSS selector: </h4>
+          <p> .reservations-main, .banner_visit, .banner_text, .box_booking, .box_booking_item, .box_form, .box_form_item, .box_form_item_col, .box_form_button, h2, h3, p </p>
+
+          <h4> Sample code: </h4>
+          <code> &lt;div class = "reservations-main"&gt; </code>
+            <!-- Banner -->
+            <code> &lt;div class="banner_visit"&gt; </code>
+              <code> &lt;div class="banner_text"&gt; </code>
+                <code> &lt;h2&gt;Reservations&lt;/h2&gt; </code>
+                <code> &lt;p&gt;Drop-ins are welcomed but not guaranteed if we get full. Please use the form below to book a visit with us to guarantee your spot.&lt;/p&gt; </code>
+              <code> &lt;/div&gt; </code>
+            <code> &lt;/div&gt; </code>
+
+            <!-- Booking a Visit Form -->
+            <code> &lt;div class="box_booking"&gt; </code>
+              <code> &lt;div class="box_booking_item"&gt; </code>
+                <code> &lt;h3&gt;Book a Visit&lt;/h3&gt; </code>
+                <code> &lt;form class="box_form"&gt; </code>
+                  <code> &lt;h4&gt;Contact Information&lt;/h4&gt; </code>
+                  <code> &lt;div class="box_form_item"&gt; </code>
+                    <code> &lt;label for="name"&gt;Full Name: &lt;/label&gt; </code>
+                    <code> &lt;input type="text" name="name" id="name" placeholder="Full Name"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                  <code> &lt;div class="box_form_item"&gt; </code>
+                    <code> &lt;label for="email"&gt;Email: &lt;/label&gt; </code>
+                    <code> &lt;input type="email" name="email" id="email" placeholder="myname@example.com"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                  <code> &lt;div class="box_form_item"&gt; </code>
+                    <code> &lt;label for="tel"&gt;Phone Number: &lt;/label&gt; </code>
+                    <code> &lt;input type="tel" name="phone_number" id="phone_number" placeholder="(000)-000-0000"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                <code> &lt;/form&gt; </code>
+                <code> &lt;form class="box_form"&gt; </code>
+                  <code> &lt;h4&gt;Pick an Appointment&lt;/h4&gt; </code>
+                  <code> &lt;div class="box_form_item"&gt; </code>
+                    <code> &lt;div class="box_form_item_col"&gt; </code>
+                      <code> &lt;label for="date"&gt;Appointment Date&lt;/label&gt; </code>
+                      <code> &lt;input type="date" name="date" id="date"&gt; </code>
+                    <code> &lt;/div&gt; </code>
+                    <code> &lt;div class="box_form_item_col"&gt; </code>
+                      <code> &lt;label for="time"&gt;Appointment Time&lt;/label&gt; </code>
+                      <code> &lt;input type="time" name="time" id="time"&gt; </code>
+                    <code> &lt;/div&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                <code> &lt;/form&gt; </code>
+                <code> &lt;div class="box_form_button"&gt; </code>
+                  <code> &lt;a href="#" type="submit" class="button">Book&lt;/a&gt; </code>
+                <code> &lt;/div&gt; </code>
+              <code> &lt;/div&gt; </code>
+            <code> &lt;/div&gt; </code>   
+          <code> &lt;/div&gt; </code>
+
+          <h4> Rendered element: </h4>
+          <div class = "reservations-main">
+            <!-- Banner -->
+            <div class="banner_visit">
+              <div class="banner_text">
+                <h2>Reservations</h2>
+                <p>Drop-ins are welcomed but not guaranteed if we get full. Please use the form below to book a visit with us to guarantee your spot.</p>
+              </div>
+            </div>
+
+            <!-- Booking a Visit Form -->
+            <div class="box_booking">
+              <div class="box_booking_item">
+                <h3>Book a Visit</h3>
+                <form class="box_form">
+                  <h4>Contact Information</h4>
+                  <div class="box_form_item">
+                    <label for="name">Full Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                  </div>
+                  <div class="box_form_item">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="myname@example.com">
+                  </div>
+                  <div class="box_form_item">
+                    <label for="tel">Phone Number: </label>
+                    <input type="tel" name="phone_number" id="phone_number" placeholder="(000)-000-0000">
+                  </div>
+                </form>
+                <form class="box_form">
+                  <h4>Pick an Appointment</h4>
+                  <div class="box_form_item">
+                    <div class="box_form_item_col">
+                      <label for="date">Appointment Date</label>
+                      <input type="date" name="date" id="date">
+                    </div>
+                    <div class="box_form_item_col">
+                      <label for="time">Appointment Time</label>
+                      <input type="time" name="time" id="time">
+                    </div>
+                  </div>
+                </form>
+                <div class="box_form_button">
+                  <a href="#" type="submit" class="button">Book</a>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </section>
+      </section>
+
       <section id="product-listing">
         <section class="element">
 
@@ -500,105 +608,6 @@
 
       <section id="checkout">
         <section class="element">
-
-          <h3> Checkout </h3>
-
-          <h4>CSS selector:</h4>
-          <p> .radio-item, h2, label, input </p>
-
-          <h4> Sample code: </h4>
-
-          <code> &lt;h2&gt; Contact Information: &lt;/h2&gt; </code>
-          
-          <code> &lt;div class = "payment-info"&gt; </code>
-          <code> &lt;label for = "Input"&gt; Name: &lt;/label&gt; </code>
-          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
-          <code> &lt;/div&gt; </code>
-
-          <code> &lt;div class = "payment-info"&gt; </code>
-          <code> &lt;label for = "Input"&gt; Phone number: &lt;/label&gt; </code>
-          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
-          <code> &lt;/div&gt; </code>
-
-          <code> &lt;h2&gt; Payment Method: &lt;/h2&gt; </code>
-
-          <code> &lt;div class = "radio-item"&gt; </code>
-          <code> &lt;input type = "radio" id = "input1" name = "option" value = "input1"&gt;</code>
-          <code> &lt;label for = "input1"&gt; Pay in person &lt;/label&gt; &lt;br&gt; </code>
-          <code> &lt;input type = "submit" value = "Submit" /&gt;</code>
-          <code> &lt;/div&gt; </code>
-
-          <code> &lt;div class = "radio-item"&gt; </code>
-          <code> &lt;input type = "radio" id = "input2" name = "option" value = "input2"&gt;</code>
-          <code> &lt;label for = "input2"&gt; Gift card &lt;/label&gt; &lt;br&gt; </code>
-          <code> &lt;label for = "Input"&gt; Gift card # &lt;/label&gt; </code>
-          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
-          <code> &lt;/div&gt; </code>
-
-          <code> &lt;div class = "radio-item"&gt; </code>
-          <code> &lt;br&gt;&lt;input type = "radio" id = "input3" name = "option" value = "input3"&gt;</code>
-          <code> &lt;label for = "input3"&gt; Debit card &lt;/label&gt; &lt;br&gt; </code>
-          <code> &lt;label for = "Input"&gt; Debit card # &lt;/label&gt; </code>
-          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
-          <code> &lt;/div&gt; </code>
-
-          <code> &lt;div class = "radio-item"&gt; </code>
-          <code> &lt;br&gt; &lt;input type = "radio" id = "input4" name = "option" value = "input4"&gt;</code>
-          <code> &lt;label for = "input3"&gt; Credit card &lt;/label&gt; &lt;br&gt; </code>
-          <code> &lt;label for = "Input"&gt; Credit card # &lt;/label&gt; </code>
-          <code> &lt;input type = "text" id = "Input" input = "Input"&gt; </code>
-          <code> &lt;/div&gt; </code>
-
-          <code> &lt;br&gt;&lt;input type = "submit" value = "Submit" /&gt;</code>
-
-          <h4> Rendered element: </h4>
-
-          <h2> Contact Information </h2>
-      
-          <div class = "payment-info">
-            <label for = "Input"> Name: </label>
-            <input type = "text" id = "Input" input = "Input">
-          </div>
-
-          <div class = "payment-info">
-            <label for = "Input"> Phone number: </label>
-            <input type = "text" id = "Input" input = "Input">
-          </div>
-
-          <h2> Payment Method: </h2>
-
-          <div class = "radio-item">
-            <input type = "radio" id = "input1" name = "option" value = "input1">
-            <label for = "input1"> Pay in person </label> <br>
-          </div>
-
-          <div class = "radio-item">
-            <br> <input type = "radio" id = "input2" name = "option" value = "input2">
-            <label for = "input2"> Gift card </label> <br>
-            <label for = "Input"> Gift card # </label>
-            <input type = "text" id = "Input" input = "Input">
-          </div>
-
-          <div class = "radio-item">
-            <br> <br> <input type = "radio" id = "input3" name = "option" value = "input3">
-            <label for = "input3"> Debit card </label> <br>
-            <label for = "Input"> Debit card # </label>
-            <input type = "text" id = "Input" input = "Input">
-          </div>
-
-          <div class = "radio-item">
-            <br> <br> <input type = "radio" id = "input4" name = "option" value = "input4">
-            <label for = "input4"> Credit card </label> <br>
-            <label for = "Input"> Credit card # </label>
-            <input type = "text" id = "Input" input = "Input">
-          </div>
-
-          <br> <br> <input type = "submit" value = "Submit" />
-        </section>
-      </section>
-
-      <section id="checkout">
-        <section class="element">
           <h3>Cart</h3>
 
           <h4>CSS selector:</h4>
@@ -649,6 +658,20 @@
           <h3> Total: $13.00 CAD </h3>
           <a class="button-nav" href="payment.html">Checkout</a>
           
+        </section>
+      </section>
+
+      <section id="payment">
+        <section class="element">
+
+          <h3> Payment </h3>
+
+          <h4> CSS selector: </h4>
+
+          <h4> Sample code: </h4>
+
+          <h4> Rendered element: </h4>
+
         </section>
       </section>
 
