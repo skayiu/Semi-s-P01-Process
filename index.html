@@ -633,7 +633,7 @@
           <code> &lt;/div&gt; </code>
 
           <code> &lt;h3&gt; Total: $13.00 CAD &lt;/h3&gt; </code>
-          <code>&lt;a class="button-nav"  href="payment.html"&gt;Checkout&lt;/a&gt;</code>
+          <code> &lt;a class="button-nav"  href="payment.html"&gt;Checkout&lt;/a&gt;</code>
 
           <h4> Rendered element: </h4>
 
@@ -667,10 +667,159 @@
           <h3> Payment </h3>
 
           <h4> CSS selector: </h4>
+          <p> .box_checkout, .box_checkout_item, .radio-item, .box_form, .box_form_item, .box_form_item_col, .box_form_button, .button, h3 </p>
 
           <h4> Sample code: </h4>
+          <code> &lt;h2&gt; Checkout &lt;/h2&gt; </code>
+
+          <!-- Checkout Summary and Payment Form -->
+          <code> &lt;div class="box_checkout"&gt; </code>
+            <code> &lt;div class="box_checkout_item"&gt; </code>
+              <code> &lt;h3&gt; Payment method: &lt;/h3&gt; </code>
+
+              <code> &lt;div class = "radio-item"&gt; </code>
+                <code> &lt;input type = "radio" id = "input1" name = "option" value = "input1"&gt; </code>
+                <code> &lt;label for = "input1"&gt Pay in person &lt;/label&gt &lt;br&gt; </code>
+              <code> &lt;/div&gt; </code>
+
+              <code> &lt;div class = "radio-item"&gt; </code>
+                <code> &lt;br&gt; &lt;input type = "radio" id = "input2" name = "option" value = "input2"&gt; </code>
+                <code> &lt;label for = "input2"&gt Debit/Credit Card &lt;/label&gt; &lt;br&gt; </code>
+              <code> &lt;/div&gt; </code>
+
+              <!-- Billing Address Information of Payment Form -->
+              <code> &lt;form class="box_form"&gt; </code>
+                <code> &lt;h3&gt;Billing Address:&lt;/h3&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;label for="name"&gt;Full Name: &lt;/label&gt; </code>
+                  <code> &lt;input type="text" name="name" id="name" placeholder="Full Name"&gt; </code>
+                <code> &lt;/div&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;label for="email"&gt;Email: &lt;/label&gt; </code>
+                  <code> &lt;input type="email" name="email" id="email" placeholder="myname@example.com"&gt; </code>
+                <code> &lt;/div&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;label for="address"&gt;Address: &lt;/label&gt; </code>
+                  <code> &lt;input type="text" name="address" id="address" placeholder="Address"&gt; </code>
+                <code> &lt;/div&gt; </code>
+                <code> &lt;div class="box_form_item&gt; </code>
+                  <code> &lt;label for="city"&gt;City: &lt;/label&gt; </code>
+                  <code> &lt;input type="text" name="city" id="city" placeholder="City"&gt; </code>
+                <code> &lt;/div&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;div class="box_form_item_col"&gt; </code>
+                    <code> &lt;label for="province"&gt;Province: &lt;/label&gt; </code>
+                    <code> &lt;input type="text" name="province" id="province" placeholder="BC"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                  <code> &lt;div class="box_form_item_col"&gt; </code>
+                    <code> &lt;label for="zip"Postal Code: &lt;/label&gt; </code>
+                    <code> &lt;input type="text" name="zip" id="zip" placeholder="A1B 2C3"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                <code> &lt;/div&gt; </code>
+              <code> &lt;/form&gt; </code>
+              <!-- Payment Information of the Payment Form -->
+              <form class="box_form">
+                <code> &lt;h3&gt;Debit/Credit Card Payment:&lt;/h3&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;label for="name_card"&gt;Name on Card: &lt;/label&gt; </code>
+                  <code> &lt;input type="text" name="name_card" id="name_card" placeholder="Full Name"&gt; </code>
+                <code> &lt;/div&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;label for="card_number"&gt;Card Number:&lt;/label&gt; </code>
+                  <code> &lt;input type="number" name="card_number" id="card_number" placeholder="1111 2222 3333 4444"&gt; </code>
+                <code> &lt;/div&gt; </code>
+                <code> &lt;div class="box_form_item"&gt; </code>
+                  <code> &lt;div class="box_form_item_col"&gt; </code>
+                    <code> &lt;label for="exp"&gt;Expiry Date:&lt;/label&gt; </code>
+                    <code> &lt;input type="month" name="exp" id="exp"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                  <code> &lt;div class="box_form_item_col"&gt; </code>
+                    <code> &lt;label for="cvv"&gt;CVV: &lt;/label&gt; </code>
+                    <code> &lt;input type="number" name="cvv" id="cvv" placeholder="CVV"&gt; </code>
+                  <code> &lt;/div&gt; </code>
+                <code> &lt;/div&gt; </code>
+              <code> &lt;/form&gt; </code>
+              <code> &lt;div class="box_form_button"&gt; </code>
+                <code> &lt;a href="#" type="submit" class="button"&gt;Submit&lt;/a&gt; </code>
+              <code> &lt;/div&gt; </code>
+            <code> &lt;/div&gt; </code>
+          <code> &lt;/div&gt; </code>
 
           <h4> Rendered element: </h4>
+          <h2> Checkout </h2>
+
+          <!-- Checkout Summary and Payment Form -->
+          <div class="box_checkout">
+            <div class="box_checkout_item">
+              <h3> Payment method: </h3>
+
+              <div class = "radio-item">
+                <input type = "radio" id = "input1" name = "option" value = "input1">
+                <label for = "input1"> Pay in person </label> <br>
+              </div>
+
+              <div class = "radio-item">
+                <br> <input type = "radio" id = "input2" name = "option" value = "input2">
+                <label for = "input2"> Debit/Credit Card </label> <br>
+              </div>
+
+              <!-- Billing Address Information of Payment Form -->
+              <form class="box_form">
+                <h3>Billing Address:</h3>
+                <div class="box_form_item">
+                  <label for="name">Full Name: </label>
+                  <input type="text" name="name" id="name" placeholder="Full Name">
+                </div>
+                <div class="box_form_item">
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" placeholder="myname@example.com">
+                </div>
+                <div class="box_form_item">
+                  <label for="address">Address: </label>
+                  <input type="text" name="address" id="address" placeholder="Address">
+                </div>
+                <div class="box_form_item">
+                  <label for="city">City: </label>
+                  <input type="text" name="city" id="city" placeholder="City">
+                </div>
+                <div class="box_form_item">
+                  <div class="box_form_item_col">
+                    <label for="province">Province: </label>
+                    <input type="text" name="province" id="province" placeholder="BC">
+                  </div>
+                  <div class="box_form_item_col">
+                    <label for="zip">Postal Code: </label>
+                    <input type="text" name="zip" id="zip" placeholder="A1B 2C3">
+                  </div>
+                </div>
+              </form>
+              <!-- Payment Information of the Payment Form -->
+              <form class="box_form">
+                <h3>Debit/Credit Card Payment:</h3>
+                <div class="box_form_item">
+                  <label for="name_card">Name on Card: </label>
+                  <input type="text" name="name_card" id="name_card" placeholder="Full Name">
+                </div>
+                <div class="box_form_item">
+                  <label for="card_number">Card Number:</label>
+                  <input type="number" name="card_number" id="card_number" placeholder="1111 2222 3333 4444">
+                </div>
+                <div class="box_form_item">
+                  <div class="box_form_item_col">
+                    <label for="exp">Expiry Date:</label>
+                    <input type="month" name="exp" id="exp">
+                  </div>
+                  <div class="box_form_item_col">
+                    <label for="cvv">CVV: </label>
+                    <input type="number" name="cvv" id="cvv" placeholder="CVV">
+                  </div>
+                </div>
+              </form>
+              <div class="box_form_button">
+                <a href="#" type="submit" class="button">Submit</a>
+              </div>
+            </div>
+          </div>
 
         </section>
       </section>
