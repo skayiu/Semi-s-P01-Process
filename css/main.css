@@ -318,6 +318,21 @@ p {
   align-items: flex-start;
 }
 
+.reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box-review{
+  width: 30%;
+  margin: 2rem 0 0 0 ;
+  border: 1px solid #d9cebe;
+  box-shadow: 0.3rem 0.3rem #d9cebe; /* Retrieved from: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+  padding: 1rem;
+}
+
 /* Styling the radio button. Used the following example: https://usefulangle.com/post/389/css-radio-button-color */
 
 .radio-item label {
