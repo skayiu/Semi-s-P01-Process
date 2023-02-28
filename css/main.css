@@ -312,6 +312,22 @@ p {
   padding: 2em;
 }
 
+.updates-sub {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18em;
+  padding-right: 18em;
+  text-align: center;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 2em;
+}
+
 .payment-info {
   display: flex;
   flex-direction: column;
