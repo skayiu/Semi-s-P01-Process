@@ -112,6 +112,10 @@ code {
   color: #AC9584;
 }
 
+input, textarea{
+  font-family: "Quicksand", Helvetica, sans-serif;
+}
+
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
@@ -310,6 +314,17 @@ input[type="add"] {
 
 /* Reservation Form Elements*/
 
+.banner_text{
+  text-align: center;
+}
+
+.reservations-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .box_form h4{
   margin-bottom: 1rem;
 }
@@ -326,7 +341,7 @@ input[type="add"] {
   border: 0.1rem solid #AC9584;
   background-color: white;
   color: #AC9584;
-  width: 200px;
+  width: 100%;
 }
 
 .box_form_item_col{
@@ -339,7 +354,7 @@ input[type="add"] {
   border: 0.1rem solid #AC9584;
   background-color: white;
   color: #AC9584;
-  width: 200px;
+  width: 100%;
 }
 
 .box_form input:hover, .box_form textarea:hover, .box_form input:focus, .box_form textarea:focus{
@@ -357,7 +372,8 @@ input[type="add"] {
 .box_checkout, .box_booking{
   padding: 1rem;
   margin-bottom: 1rem;
-  background-color: white;
+  background-color:white;
+  width: 100%;
 }
 
 .box_checkout .button, .box_booking .button{
