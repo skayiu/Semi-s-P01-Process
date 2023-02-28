@@ -138,6 +138,27 @@ input, textarea{
 
 }
 
+.button-add {
+  display: inline-block;
+  margin: 0.5rem 0 0 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+}
+
+.button-add:hover, .button-add:focus {
+  color: white;
+  background-color: #B2C8B0;
+
+}
+
 /* 3) Adding a different hover and focus state styling to in-text link */
 a {
   color: #AC9584 ;
