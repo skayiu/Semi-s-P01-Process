@@ -77,6 +77,14 @@ nav{
 
     .menu-items img{
         width: 60%;
-      }
+    }
+
+    .reviews{
+        flex-direction: column;
+    }
+
+    .box-review{
+        width: 100%;
+    }
 }
 

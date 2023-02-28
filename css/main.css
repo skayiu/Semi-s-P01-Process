@@ -138,6 +138,27 @@ input, textarea{
 
 }
 
+.button-add {
+  display: inline-block;
+  margin: 0.5rem 0 0 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+}
+
+.button-add:hover, .button-add:focus {
+  color: white;
+  background-color: #B2C8B0;
+
+}
+
 /* 3) Adding a different hover and focus state styling to in-text link */
 a {
   color: #AC9584 ;
@@ -297,6 +318,21 @@ p {
   align-items: flex-start;
 }
 
+.reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box-review{
+  width: 30%;
+  margin: 2rem 0 0 0 ;
+  border: 1px solid #d9cebe;
+  box-shadow: 0.3rem 0.3rem #d9cebe; /* Retrieved from: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+  padding: 1rem;
+}
+
 /* Styling the radio button. Used the following example: https://usefulangle.com/post/389/css-radio-button-color */
 
 .radio-item label {
@@ -314,11 +350,11 @@ input[type="add"] {
 
 /* Reservation Form Elements*/
 
-.banner_text{
+.box-banner{
   text-align: center;
 }
 
-.reservations-main{
+.box-main{
   display: flex;
   flex-direction: column;
   justify-content: center;
