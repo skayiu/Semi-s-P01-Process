@@ -10,6 +10,51 @@ nav{
     justify-content: space-between;
 }
 
+/* Flexbox for the form*/
+
+.box_checkout, .box_booking {
+
+	display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+
+    flex-direction: row;
+
+}
+
+.box_form{
+    -webkit-flex: 1 1 0;
+	-ms-flex: 1 1 0;
+    flex: 1 1 0;
+}
+
+.box_form_item{
+    -webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.box_form_item_col{
+    display: inline-block;
+}
+
+.box_form_button{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 75rem){
     header{
         flex-direction: column;
