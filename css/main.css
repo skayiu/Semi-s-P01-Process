@@ -45,6 +45,7 @@ section{
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: #AC9584;
+  width: 100%;
 }
 
 h1 {
@@ -328,12 +329,22 @@ p {
   padding: 2em;
 }
 
+.updates-element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #AC9584;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .updates-sub {
   display: flex;
   flex-direction: column;
-  padding-left: 18em;
-  padding-right: 18em;
   text-align: center;
+  width: 50%;
 }
 
 .center-img {
