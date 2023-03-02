@@ -173,7 +173,6 @@ input, textarea{
 .submit-button:hover, .submit-button:focus {
   color: white;
   background-color: #B2C8B0;
-
 }
 
 /* 3) Adding a different hover and focus state styling to in-text link */
@@ -461,4 +460,121 @@ input[type="add"] {
   background-color: white;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+/* Styling for footer */
+
+footer {
+  /*background-color: #AC9584;*/
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.footer-nav-element {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.footer-name-nav {
+  text-decoration: none;
+  color: #AC9584;
+  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.footer-nav {
+  text-decoration: none;
+  color: #AC9584;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer-name-nav:hover, .footer-name-nav:focus, .footer-nav:hover, .footer-nav:focus {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #B2C8B0;
+}
+
+.footer-button-nav {
+  font-size: 0.9rem;
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px;
+}
+
+.footer-button-nav:hover, .footer-button-nav:focus {
+  color: white;
+  background-color: #B2C8B0;
+}
+
+.footer-form-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-element {
+  padding-bottom: 1rem;
+  margin-top: 1em;
+  border-top-width: 0.1rem;
+  border-top-style: solid;
+  border-top-color: #AC9584;
+  width: 100%;
+}
+
+footer section {
+  background-color: #E7D6C6;
+  border-top: 5em;
+}
+
+footer p {
+  color: #AC9584;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer_box_form h4{
+  margin-bottom: 1rem;
+}
+
+.footer_box_form label{
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.footer_box_form input, .footer_box_form textarea{
+  margin: 0 1.5rem 1.2rem 0;
+  padding: 0.5rem 1rem 0.5rem 0.7rem;
+  border: 0.1rem solid #AC9584;
+  background-color: white;
+  color: #AC9584;
+  width: 100%;
+}
+
+.footer_box_form input:hover, .footer_box_form textarea:hover, .footer_box_form input:focus, .footer_box_form textarea:focus{
+  background-color: white;
+  border-color: #B2C8B0;
+}
+
+.box_form textarea{
+  width: 100%;
+  overflow: auto;
+  margin-top: 0.5rem;
 }
