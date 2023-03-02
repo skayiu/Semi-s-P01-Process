@@ -471,8 +471,10 @@ input[type="add"] {
 
 footer {
   /*background-color: #AC9584;*/
-  padding-left: 10em;
-  padding-right: 10em;
+  /* padding-left: 10em;
+  padding-right: 10em; */
+  margin: auto;
+  width: 70%;
 }
 
 .footer-box {
