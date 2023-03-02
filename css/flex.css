@@ -94,5 +94,17 @@ nav{
     .box_booking_item{
         width: 100%;
     }
+
+    footer {
+        width: 100%;
+    }
+
+    .footer-box{
+        flex-direction: column;
+    }
+
+    .footer-nav-element h5{
+        margin-top: 2em;
+    }
 }
 
