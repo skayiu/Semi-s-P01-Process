@@ -491,12 +491,8 @@ footer {
   align-content: flex-start;
 }
 
-.footer-name-nav {
-  text-decoration: none;
-  color: #AC9584;
-  margin-bottom: 0.25rem;
-  font-size: 1.2rem;
-  font-weight: 600;
+.footer-logo {
+  margin-bottom: 0.65em;
 }
 
 .footer-nav {
@@ -504,9 +500,10 @@ footer {
   color: #AC9584;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 0.35em;
 }
 
-.footer-name-nav:hover, .footer-name-nav:focus, .footer-nav:hover, .footer-nav:focus {
+.footer-nav:hover, .footer-nav:focus {
   color: white;
   text-decoration: underline;
   text-decoration-color: #B2C8B0;
