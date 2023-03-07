@@ -111,6 +111,11 @@ code {
   color: #AC9584;
 }
 
+.reviews-link {
+  padding: 0 0.5rem 0 0.5rem;
+  color: #AC9584;
+}
+
 .item-link {
   margin-bottom: 0.25rem;
   font-size: 1rem;
@@ -194,6 +199,10 @@ a:hover, a:focus {
 /* Followed this example: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .image:hover, .image:focus {
   opacity: 0.6;
+}
+
+.img-confirm{
+  width: 30%;
 }
 
 /* 6) Building Forms (Shay Howe) - https://learn.shayhowe.com/html-css/building-forms/ */
@@ -465,6 +474,30 @@ input[type="add"] {
   background-color: white;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+/* Product Page and Product Confirmation Styling*/
+
+.product-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+
+.product-main img{
+  width: 40%;
+  object-fit: cover;
+  padding: 0 2rem 0 2rem;
+}
+
+.box-confirm{
+  display: flex;
+  text-align: center;
+}
+
+.box-confirm-item{
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 /* Styling for footer */
