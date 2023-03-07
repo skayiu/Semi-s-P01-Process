@@ -79,6 +79,10 @@ nav{
         text-align: center;
     }
 
+    .logo-image{
+        width: 100%;
+      }
+
     .menu-items img{
         width: 60%;
     }
@@ -107,6 +111,12 @@ nav{
 
     .img-confirm{
         width: 100%;
+    }
+
+    .logo-image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
     }
 
     .box-confirm{
