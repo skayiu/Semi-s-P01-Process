@@ -65,6 +65,10 @@ nav{
         align-items: center;
         width: 100%;
     }
+
+    .product-main {
+        width: 90%;
+    }
     
 }
 
@@ -75,11 +79,15 @@ nav{
         text-align: center;
     }
 
+    .logo-image{
+        width: 100%;
+      }
+
     .menu-items img{
         width: 60%;
     }
 
-    .reviews{
+    .reviews, .review-section{
         flex-direction: column;
     }
 
@@ -89,6 +97,30 @@ nav{
 
     .updates-sub {
         width: 100%;
+    }
+
+    .product-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-main img{
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+
+    .img-confirm{
+        width: 100%;
+    }
+
+    .logo-image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .box-confirm{
+        flex-direction: column;
     }
 
     .box_booking_item{

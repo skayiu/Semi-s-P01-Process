@@ -16,7 +16,7 @@
     <section id = "style_guide">
 
       <header>
-        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" width="335.1" height="52.5" class = "logo-image"> </a>
+        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="logo-image"></a>
 
         <nav>    
           <a class="button-nav" href="updates.html">Updates</a>
@@ -31,30 +31,53 @@
 
     <section id = "hojicha-latte">
 
-      <div class = "product-main">
+      <div class="box-main">
+        <div class = "product-main">
 
-        <img src="img/hojicha_latte.jpg" alt="Hojicha Latte" style="width: 270px; height: 405px;">
+          <img src="img/hojicha_latte.jpg" alt="Hojicha Latte" class = "product-options">
 
-        <div class = "product-options">
-          <h3> Hojicha Latte </h3>
+          <div class = "product-options">
+            <h2> Hojicha Latte </h2>
+            <h3>$6.50</h3>
 
-          <h4> Size: </h4>
-          <div class = "radio-item">
-            <input type = "radio" id = "input1" name = "option" value = "input1">
-            <label for = "input1"> Medium </label> <br>
+            <p>A smooth and creamy Japanese roasted green tea served with milk over ice.</p>
+            <p class="review-section">★★★★★ <a href="#reviews" class="reviews-link">32 reviews</a><a href="review.html" class="reviews-link">Write a Review</a></p>
+
+            <h4> Size: </h4>
+            <div class = "radio-item">
+              <input type = "radio" id = "input1" name = "option" value = "input1">
+              <label for = "input1"> Medium </label> <br>
+            </div>
+
+            <div class = "radio-item">
+              <input type = "radio" id = "input2" name = "option" value = "input2">
+              <label for = "input2"> Large + $1 </label> <br>
+            </div>
+
+            <!-- <a href="cart.html"><input type = "add" value = "Add to cart" /></a> -->
+            <a href="confirm-coldbrew.html" class="button-add">Add to cart</a>
+
           </div>
-
-          <div class = "radio-item">
-            <input type = "radio" id = "input2" name = "option" value = "input2">
-            <label for = "input2"> Large + $1 </label> <br>
-          </div>
-
-          <!-- <input type = "add" value = "Add to cart" /> -->
-          <a href="confirm-hojicha.html" class="button-add">Add to cart</a>
-
         </div>
-      
-        
+
+        <div class="box-review" id="reviews">
+          <h2>Reviews</h2>
+          <div class="review-content">
+            <h3>Best latte ever</h3>
+            <p>★★★★★ 2 months ago</p>
+            <p>Every since I've tried it, I've been obsessed. I order it every single time.</p>
+            <p>- Karen</p>
+          </div>
+          <div class="review-content">
+            <h3>Great taste!</h3>
+            <p>★★★★★ 6 months ago</p>
+            <p>This latte is super tasty and creamy. The sweatness of the drink is perfectly balanced.</p>
+            <p>- Sofie</p>
+          </div>
+          <div>
+            <a href="#reviews">Read more reviews</a>
+          </div>
+        </div>
       </div>
   
 

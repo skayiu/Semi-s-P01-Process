@@ -16,7 +16,7 @@
     <section id = "style_guide">
 
       <header>
-        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" width="335.1" height="52.5" class = "logo-image"> </a>
+        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="logo-image"></a>
 
         <nav>    
           <a class="button-nav" href="updates.html">Updates</a>
@@ -35,26 +35,44 @@
 
      <div class="banner">
         <div class="box-banner">
-            <h2>Customer Reviews</h2>
-            <p>See why people love Heaven's Cloud Cafe!</p>
+            <h2>Leave a Review</h2>
+            <p>Leave a review for our drinks!</p>
         </div>
       </div>
 
       <section class="element">
 
         <div class="reviews">
-          <div class="box-review">
-            <h3>Karen</h3>
-            <p>I love the vibe of Heaven's Cloud. I come here for their cold brews every morning. Their ordering online system is the best.</p>
-          </div>
-          <div class="box-review">
-            <h3>Sofie</h3>
-            <p>I come here to study with my friends. It can get loud when it gets busy but the environment is so relaxing that it's worth it. Their Hojicha latte is a much try!</p>
-          </div>
-          <div class="box-review">
-            <h3>John</h3>
-            <p>I came here last week to to catch with my family that were in town. They loved it here. I was told that this place is a great place to hang out so I made sure to make a reservation online so that I could save a table for my large family. We all ordered our drinks in person and they were all delicious. Would highly recommend!</p>
-          </div>
+          <div class="box_booking">
+            <div class="box_booking_item">
+                <h3>Write a Review</h3>
+                <form class="box_form">
+                    <div class="box_form_item">
+                        <label for="name">Review Title: </label>
+                        <input type="text" name="title" placeholder="I would buy this again.">
+                    </div>
+                    <div class="box_form_item">
+                      <label for="tel">Product Name: </label>
+                      <input type="text" name="drink" placeholder="Cold Brew">
+                  </div>
+                    <div class="box_form_item">
+                        <label for="email">Rating: </label>
+                        <p>★★★★★</p>
+                    </div>
+                    <div class="box_form_item">
+                        <label for="tel">Name: </label>
+                        <input type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="box_form_item">
+                      <label for="notes">Review</label>
+                      <textarea name="notes" placeholder="Write your review."></textarea>
+                    </div>
+                </form>
+                <div class="box_form_button">
+                    <a href="review-confirm.html" type="submit" class="button-nav">Submit Review</a>
+                </div>
+            </div>
+        </div> 
         </div>
 
       </section>
