@@ -87,7 +87,7 @@ nav{
         width: 60%;
     }
 
-    .reviews{
+    .reviews, .review-section{
         flex-direction: column;
     }
 
