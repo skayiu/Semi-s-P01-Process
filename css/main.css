@@ -374,11 +374,21 @@ p {
   width: 50%;
 }
 
-.center-img {
+.updates-img1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
+  height: auto;
+  padding-bottom: 2em;
+}
+
+.updates-img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
   padding-bottom: 2em;
 }
 
