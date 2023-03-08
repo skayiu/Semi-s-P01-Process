@@ -488,6 +488,14 @@ input[type="add"] {
   border-color: #B2C8B0;
 }
 
+input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[type=time]:focus, input[type=number]:focus, input[type=month]:focus {
+  outline: 2px solid #B2C8B0;
+}
+
+textarea[name=notes]:focus {
+  outline: 2px solid #B2C8B0;
+}
+
 .box_form textarea{
   width: 100%;
   overflow: auto;
