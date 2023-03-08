@@ -121,6 +121,11 @@ code {
   font-size: 1rem;
   font-weight: 600;
   color: #AC9584;
+  text-decoration: none;
+}
+
+.item-link: hover, .item-link: focus {
+  color: #B2C8B0;
 }
 
 input, textarea{
@@ -136,6 +141,7 @@ input, textarea{
   display: inline-block;
   padding: 0.5rem;
   color: white;
+  font-size: 1em;
   background-color: #AC9584;
   text-decoration: none;
   transition-property: background-color; 
@@ -146,14 +152,32 @@ input, textarea{
 .button-nav:hover, .button-nav:focus {
   color: white;
   background-color: #B2C8B0;
+}
 
+input[type=submit] {
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1em;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+  border: 2px solid #AC9584; /* Used the following example: https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button */
+}
+
+input[type=submit]:hover, input[type=submit]:focus {
+  color: white;
+  background-color: #B2C8B0;
+  border: 2px solid #B2C8B0;
 }
 
 .button-add {
   display: inline-block;
   margin: 0.5rem 0 0 0;
   padding: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 10rem;
   text-align: center;
   color: white;
@@ -169,22 +193,6 @@ input, textarea{
   background-color: #B2C8B0;
 }
 
-.submit-button {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: #AC9584;
-  text-decoration: none;
-  transition-property: background-color; 
-  transition-duration: 0.5s;
-  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
-}
-
-.submit-button:hover, .submit-button:focus {
-  color: white;
-  background-color: #B2C8B0;
-}
-
 /* 3) Adding a different hover and focus state styling to in-text link */
 a {
   color: #AC9584 ;
@@ -196,13 +204,13 @@ a:hover, a:focus {
 }
 
 /* 4)  Adding a different hover and focus state styling to image as link */
-/* Followed this example: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+/* Used the following example: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .image:hover, .image:focus {
   opacity: 0.6;
 }
 
 .img-confirm{
-  width: 30%;
+  width: 20%;
 }
 
 .logo-image{
@@ -255,7 +263,7 @@ p {
   COMBINED ELEMENTS -------------------
 */
 
-/* Followed these examples: https://flexboxfroggy.com/ */
+/* Used the following: https://flexboxfroggy.com/ */
 
 .menu-items {
   display: flex;
@@ -269,6 +277,10 @@ p {
   flex-direction: column;
   text-align: center;
   margin: 0.5rem;
+}
+
+.menu-sub h5 {
+  margin: 1em;
 }
 
 .menu-items img{
@@ -365,11 +377,21 @@ p {
   width: 50%;
 }
 
-.center-img {
+.updates-img1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
+  height: auto;
+  padding-bottom: 2em;
+}
+
+.updates-img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
   padding-bottom: 2em;
 }
 
@@ -467,6 +489,16 @@ input[type="add"] {
 .box_form input:hover, .box_form textarea:hover, .box_form input:focus, .box_form textarea:focus{
   background-color: white;
   border-color: #B2C8B0;
+}
+
+
+/* Used the following example: https://stackoverflow.com/questions/43427993/change-the-color-of-a-input-field-when-selected */
+input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[type=time]:focus, input[type=number]:focus, input[type=month]:focus {
+  outline: 2px solid #B2C8B0;
+}
+
+textarea[name=notes]:focus {
+  outline: 2px solid #B2C8B0;
 }
 
 .box_form textarea{
