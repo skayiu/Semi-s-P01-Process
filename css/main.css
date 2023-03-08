@@ -121,6 +121,11 @@ code {
   font-size: 1rem;
   font-weight: 600;
   color: #AC9584;
+  text-decoration: none;
+}
+
+.item-link: hover, .item-link: focus {
+  color: #B2C8B0;
 }
 
 input, textarea{
@@ -269,6 +274,10 @@ p {
   flex-direction: column;
   text-align: center;
   margin: 0.5rem;
+}
+
+.menu-sub h5 {
+  margin: 1em;
 }
 
 .menu-items img{
