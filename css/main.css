@@ -125,7 +125,7 @@ code {
   text-decoration: none;
 }
 
-.item-link: hover, .item-link: focus {
+.item-link:hover, .item-link:focus {
   color: #B2C8B0;
 }
 
@@ -321,36 +321,46 @@ p {
   padding-bottom: 1.5em;
 }
 
-.cart-header {
+.cart{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.cart-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 0.15rem solid #AC9584;
+  border-bottom: 0.15rem solid #AC9584;
+  margin-bottom: 2em;
 }
 
 .cart-items {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  padding-left: 6em;
-  padding-right: 6em;
+  padding: 0 0 2em 0;
 }
 
+/*Resource used: https://stackoverflow.com/questions/72691591/first-child-and-second-in-flexbox*/
+.cart-child-last{
+  flex: 0 0 20%;
+}
+
+.cart-child-nth{
+  flex: 0 0 30%;
+}
 
 .cart-item-descrip {
   display: flex;
   flex-direction: column;
-  
 }
 
-.cart-image {
-  /*
-  width: 90px;
-  height: 135px;
-  */
-  width: 15%;
-  padding: 1em;
+.cart-items img {
+  width: 50%;
 }
 
 .cart-banner{
