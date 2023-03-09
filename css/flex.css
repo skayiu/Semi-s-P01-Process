@@ -138,5 +138,29 @@ nav{
     .footer-nav-element h5{
         margin-top: 2em;
     }
+
+    .cart-header{
+        display: none;
+    } 
+
+    .cart-items img {
+        width: 80%;
+    }
+
+    .cart-items {
+        align-items: flex-start;
+        padding-bottom: 1em;
+    }
+
+    .cart-items p, .cart-items h4{
+        font-size: 70%;
+    }
+
+    .cart{
+        padding-bottom: 2rem;
+        border-top: 0.15rem solid #AC9584;
+        width: 100%;
+        padding-bottom: 0;
+    }
 }
 
