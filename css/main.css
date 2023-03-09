@@ -109,6 +109,7 @@ code {
 
 .link {
   color: #AC9584;
+  text-decoration: none;
 }
 
 .reviews-link {
@@ -168,6 +169,25 @@ input[type=submit] {
 }
 
 input[type=submit]:hover, input[type=submit]:focus {
+  color: white;
+  background-color: #B2C8B0;
+  border: 2px solid #B2C8B0;
+}
+
+input[type=reset] {
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1em;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+  border: 2px solid #AC9584; /* Used the following example: https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button */
+}
+
+input[type=reset]:hover, input[type=reset]:focus {
   color: white;
   background-color: #B2C8B0;
   border: 2px solid #B2C8B0;
