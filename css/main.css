@@ -321,6 +321,12 @@ p {
   padding-bottom: 1.5em;
 }
 
+.cart-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .cart-items {
   display: flex;
   flex-direction: row;
