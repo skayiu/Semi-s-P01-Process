@@ -125,7 +125,7 @@ code {
   text-decoration: none;
 }
 
-.item-link: hover, .item-link: focus {
+.item-link:hover, .item-link:focus {
   color: #B2C8B0;
 }
 
