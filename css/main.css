@@ -247,7 +247,7 @@ input {
   background-color: #AC9584;
   opacity: 80%;
   border-color: #AC9584;
-  font: "Quicksand", Helvetica, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   font-weight: 400;
   color: white;
   text-shadow: none;
@@ -491,7 +491,7 @@ input[name="option"] {
 }
 
 input[type="add"] {
-  font: "Quicksand", Helvetica, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -630,6 +630,8 @@ footer {
 
 .footer-logo {
   margin-bottom: 0.65em;
+  width: 279.25px;
+  height: 43.75px; 
 }
 
 .footer-nav {
@@ -646,7 +648,7 @@ footer {
   text-decoration-color: #B2C8B0;
 }
 
-.footer-button-nav {
+.footer_box_form input[type=submit] {
   font-size: 0.9rem;
   display: inline-block;
   padding: 0.5rem;
@@ -658,7 +660,7 @@ footer {
   border-radius: 8px;
 }
 
-.footer-button-nav:hover, .footer-button-nav:focus {
+.footer_box_form input[type=submit]:hover, .footer_box_form input[type=submit]:focus {
   color: white;
   background-color: #B2C8B0;
 }
