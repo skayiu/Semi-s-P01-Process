@@ -301,18 +301,16 @@ p {
   padding-bottom: 1.5em;
 }
 
-.cart-headings {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .cart-items {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  padding-left: 6em;
+  padding-right: 6em;
 }
+
 
 .cart-item-descrip {
   display: flex;
