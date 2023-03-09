@@ -247,7 +247,7 @@ input {
   background-color: #AC9584;
   opacity: 80%;
   border-color: #AC9584;
-  font: "Quicksand", Helvetica, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   font-weight: 400;
   color: white;
   text-shadow: none;
@@ -491,7 +491,7 @@ input[name="option"] {
 }
 
 input[type="add"] {
-  font: "Quicksand", Helvetica, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   text-align: center;
 }
 
