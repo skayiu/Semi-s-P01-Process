@@ -9,12 +9,6 @@
 /* 1) Followed this example: https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file */
 /* The font used was from Google Fonts: https://fonts.google.com/specimen/Quicksand */
 
-/* Font's used for Jenn's webpage*/
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;700&family=Merriweather+Sans:wght@350;400&family=Josefin+Sans:wght@700&display=swap');
-/* Font used: https://fonts.google.com/specimen/Be+Vietnam+Pro */
-/* Font used: https://fonts.google.com/specimen/Josefin+Sans? */
-/* Font used: https://fonts.google.com/specimen/Merriweather+Sans */
-
 header {
   display: flex;
   justify-content: space-between;
