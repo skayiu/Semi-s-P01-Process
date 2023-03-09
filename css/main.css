@@ -301,21 +301,17 @@ p {
   padding-bottom: 1.5em;
 }
 
-.cart-box {
-  
-
-}
-
-.cart-bar {
+.cart-headings {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .cart-items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cart-item-descrip {
@@ -331,6 +327,10 @@ p {
   */
   width: 15%;
   padding: 1em;
+}
+
+.cart-banner{
+  text-align: center;
 }
 
 .inspiration-items {
