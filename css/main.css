@@ -304,13 +304,31 @@ p {
 .cart-items {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+
+.cart-item-descrip {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cart-image {
+  /*
+  width: 90px;
+  height: 135px;
+  */
+  width: 15%;
   padding: 1em;
 }
 
-.cart-sub {
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
+.cart-banner{
+  text-align: center;
 }
 
 .inspiration-items {
