@@ -55,6 +55,7 @@ nav{
     justify-content: center;
 }
 
+/* Media query if the max-width is less than 75rem*/
 @media screen and (max-width: 75rem){
     header{
         flex-direction: column;
@@ -72,6 +73,7 @@ nav{
     
 }
 
+/* Media query if the max-width is less than 50rem - applies to mobile devices*/
 @media screen and (max-width: 50rem){
     nav{
         flex-direction: column;
