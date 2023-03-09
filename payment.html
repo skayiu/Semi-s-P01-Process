@@ -1,168 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Heaven's Cloud Cafe </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Heaven's Cloud Cafe </title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/flex.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/flex.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
-    <section id = "style_guide">
+<body>
+  <section id="style_guide">
 
-      <header>
-        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="logo-image"></a>
+    <header>
+      <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="logo-image"></a>
 
-        <nav>        
-          <a class="button-nav" href="product-listing.html">Menu</a>
-          <a class="button-nav" href="updates.html">Updates</a>
-          <a class="button-nav" href="contact.html">Contact</a>
-          <a class="button-nav" href="reservations.html">Reservations</a>
-          <a class="button-nav" href="cart.html">Cart</a>
-        </nav>
-      </header>
-    </section>
+      <nav>
+        <a class="button-nav" href="product-listing.html">Menu</a>
+        <a class="button-nav" href="updates.html">Updates</a>
+        <a class="button-nav" href="contact.html">Contact</a>
+        <a class="button-nav" href="reservations.html">Reservations</a>
+        <a class="button-nav" href="cart.html">Cart</a>
+      </nav>
+    </header>
+  </section>
 
-    <section> 
+  <section>
 
-      <div class = "box-main">
+    <div class="box-main">
 
-        <!-- Banner -->
-        <div class="banner">
-            <div class="box-banner">
-              <h2> Checkout </h2>
-            </div>
+      <!-- Banner -->
+      <div class="banner">
+        <div class="box-banner">
+          <h2> Checkout </h2>
         </div>
-      
+      </div>
 
-        <section class="element">
 
-      <!-- Checkout Summary and Payment Form -->
+      <section class="element">
+
+        <!-- Checkout Summary and Payment Form -->
         <div class="box_checkout">
-            <div class="box_checkout_item">
+          <div class="box_checkout_item">
 
-                <h3> Payment method: </h3>
+            <h3> Payment method: </h3>
 
-                <div class = "radio-item">
-                  <input type = "radio" id = "input1" name = "option" value = "input1">
-                  <label for = "input1"> Pay in person </label> <br>
-                </div>
-
-                <div class = "radio-item">
-                  <br> <input type = "radio" id = "input2" name = "option" value = "input2">
-                  <label for = "input2"> Debit/Credit Card </label> <br>
-                </div>
-
-                <!-- Billing Address Information of Payment Form -->
-                <form class="box_form">
-                    <h3>Billing Address:</h3>
-                    <div class="box_form_item">
-                        <label for="name">Full Name: </label>
-                        <input type="text" name="name" id="name" placeholder="Full Name">
-                    </div>
-                    <div class="box_form_item">
-                        <label for="billing-email">Email: </label>
-                        <input type="email" name="email" id="billing-email" placeholder="myname@example.com">
-                    </div>
-                    <div class="box_form_item">
-                        <label for="address">Address: </label>
-                        <input type="text" name="address" id="address" placeholder="Address">
-                    </div>
-                    <div class="box_form_item">
-                        <label for="city">City: </label>
-                        <input type="text" name="city" id="city" placeholder="City">
-                    </div>
-                    <div class="box_form_item">
-                        <div class="box_form_item_col">
-                            <label for="province">Province: </label>
-                            <input type="text" name="province" id="province" placeholder="BC">
-                        </div>
-                        <div class="box_form_item_col">
-                            <label for="zip">Postal Code: </label>
-                            <input type="text" name="zip" id="zip" placeholder="A1B 2C3">
-                        </div>
-                    </div>
-                </form>
-                <!-- Payment Information of the Payment Form -->
-                <form class="box_form">
-                    <h3>Debit/Credit Card Payment:</h3>
-                    <div class="box_form_item">
-                        <label for="name_card">Name on Card: </label>
-                        <input type="text" name="name_card" id="name_card" placeholder="Full Name">
-                    </div>
-                    <div class="box_form_item">
-                        <label for="card_number">Card Number:</label>
-                        <input type="number" name="card_number" id="card_number" placeholder="1111 2222 3333 4444">
-                    </div>
-                    <div class="box_form_item">
-                        <div class="box_form_item_col">
-                            <label for="exp">Expiry Date:</label>
-                            <input type="month" name="exp" id="exp">
-                        </div>
-                        <div class="box_form_item_col">
-                            <label for="cvv">CVV: </label>
-                            <input type="number" name="cvv" id="cvv" placeholder="CVV">
-                        </div>
-                    </div>
-                </form>
-                <div class="box_form_button">
-                    <input type = "submit" value = "Submit">
-                </div>
+            <div class="radio-item">
+              <input type="radio" id="input1" name="option" value="input1">
+              <label for="input1"> Pay in person </label> <br>
             </div>
+
+            <div class="radio-item">
+              <br> <input type="radio" id="input2" name="option" value="input2">
+              <label for="input2"> Debit/Credit Card </label> <br>
+            </div>
+
+            <!-- Billing Address Information of Payment Form -->
+            <form class="box_form">
+              <h3>Billing Address:</h3>
+              <div class="box_form_item">
+                <label for="name">Full Name: </label>
+                <input type="text" name="name" id="name" placeholder="Full Name">
+              </div>
+              <div class="box_form_item">
+                <label for="billing-email">Email: </label>
+                <input type="email" name="email" id="billing-email" placeholder="myname@example.com">
+              </div>
+              <div class="box_form_item">
+                <label for="address">Address: </label>
+                <input type="text" name="address" id="address" placeholder="Address">
+              </div>
+              <div class="box_form_item">
+                <label for="city">City: </label>
+                <input type="text" name="city" id="city" placeholder="City">
+              </div>
+              <div class="box_form_item">
+                <div class="box_form_item_col">
+                  <label for="province">Province: </label>
+                  <input type="text" name="province" id="province" placeholder="BC">
+                </div>
+                <div class="box_form_item_col">
+                  <label for="zip">Postal Code: </label>
+                  <input type="text" name="zip" id="zip" placeholder="A1B 2C3">
+                </div>
+              </div>
+            </form>
+            <!-- Payment Information of the Payment Form -->
+            <form class="box_form">
+              <h3>Debit/Credit Card Payment:</h3>
+              <div class="box_form_item">
+                <label for="name_card">Name on Card: </label>
+                <input type="text" name="name_card" id="name_card" placeholder="Full Name">
+              </div>
+              <div class="box_form_item">
+                <label for="card_number">Card Number:</label>
+                <input type="number" name="card_number" id="card_number" placeholder="1111 2222 3333 4444">
+              </div>
+              <div class="box_form_item">
+                <div class="box_form_item_col">
+                  <label for="exp">Expiry Date:</label>
+                  <input type="month" name="exp" id="exp">
+                </div>
+                <div class="box_form_item_col">
+                  <label for="cvv">CVV: </label>
+                  <input type="number" name="cvv" id="cvv" placeholder="CVV">
+                </div>
+              </div>
+            </form>
+            <div class="box_form_button">
+              <input type="submit" value="Submit">
+            </div>
+          </div>
         </div>
-        </section>
+      </section>
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div class="footer-box">
+
+      <div class="footer-nav-element">
+        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="footer-logo"> </a>
+        <a class="footer-nav" href="index.html">Style Guide Home</a>
+        <a class="footer-nav" href="https://github.com/skayiu/Team-13-P02-Company">GitHub</a>
+        <a class="footer-nav" href="product-listing.html">Menu</a>
+        <a class="footer-nav" href="updates.html">Updates</a>
+        <a class="footer-nav" href="contact.html">Contact</a>
+        <a class="footer-nav" href="review.html">Reviews</a>
+        <a class="footer-nav" href="reservations.html">Reservations</a>
       </div>
 
+
+      <div class="footer-nav-element">
+        <h5> Sign up for our email newsletter. </h5>
+
+        <div class="footer-form-item">
+
+          <form class="footer_box_form">
+
+            <div class="box_form_item">
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" placeholder="myname@example.com">
+            </div>
+
+            <input type="submit" value="Subscribe">
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <section class="footer-element">
+      <p> IAT 339 D100 Spring 2023 - P02 Team 13 (Jennifer Wu & Semi Chan) </p>
     </section>
 
-    <footer>
+  </footer>
 
-      <div class = "footer-box">
-      
-        <div class = "footer-nav-element">
-          <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class = "footer-logo"> </a>
-          <a class="footer-nav" href="index.html">Style Guide Home</a>
-          <a class="footer-nav" href="https://github.com/skayiu/Team-13-P02-Company">GitHub</a>
-          <a class="footer-nav" href="product-listing.html">Menu</a>
-          <a class="footer-nav" href="updates.html">Updates</a>
-          <a class="footer-nav" href="contact.html">Contact</a>
-          <a class="footer-nav" href="review.html">Reviews</a>
-          <a class="footer-nav" href="reservations.html">Reservations</a>
-        </div>
-  
-  
-        <div class = "footer-nav-element">
-          <h5> Sign up for our email newsletter. </h5>
-  
-          <div class = "footer-form-item">
-  
-            <form class="footer_box_form">
-          
-              <div class="box_form_item">
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="myname@example.com">
-              </div>
-  
-              <input type="submit" value="Subscribe">
-            </form>
-  
-          </div>
-  
-        </div>
-  
-      </div>
-  
-      <section class = "footer-element">
-        <p> IAT 339 D100 Spring 2023 - P02 Team 13 (Jennifer Wu & Semi Chan) </p>
-      </section>
-    
-    </footer>
-    
-  </body>
-  
+</body>
+
 </html>

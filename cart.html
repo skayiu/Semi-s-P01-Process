@@ -1,129 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Heaven's Cloud Cafe </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Heaven's Cloud Cafe </title>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/flex.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/flex.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
-    <section id = "style_guide">
+<body>
+  <section id="style_guide">
 
-      <header>
-        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="logo-image"></a>
+    <header>
+      <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="logo-image"></a>
 
-        <nav>        
-          <a class="button-nav" href="product-listing.html">Menu</a>
-          <a class="button-nav" href="updates.html">Updates</a>
-          <a class="button-nav" href="contact.html">Contact</a>
-          <a class="button-nav" href="reservations.html">Reservations</a>
-          <a class="button-nav" href="cart.html">Cart</a>
-        </nav>
-      </header>
-    </section>
+      <nav>
+        <a class="button-nav" href="product-listing.html">Menu</a>
+        <a class="button-nav" href="updates.html">Updates</a>
+        <a class="button-nav" href="contact.html">Contact</a>
+        <a class="button-nav" href="reservations.html">Reservations</a>
+        <a class="button-nav" href="cart.html">Cart</a>
+      </nav>
+    </header>
+  </section>
 
-    <section>
+  <section>
 
-      <div class="banner">
-        <div class="box-banner">
-            <h2> Order Summary </h2>
-            <p> 2 items </p>
+    <div class="banner">
+      <div class="box-banner">
+        <h2> Order Summary </h2>
+        <p> 2 items </p>
+      </div>
+    </div>
+
+    <section class="cart">
+      <div class="cart-header">
+        <div class="cart-child-nth">
+          <h3> Item </h3>
+        </div>
+        <div class="cart-child-nth">
+          <h3> Description </h3>
+        </div>
+        <div class="cart-child-nth">
+          <h3> Quantity </h3>
+        </div>
+        <div class="cart-child-last">
+          <h3> Price </h3>
         </div>
       </div>
 
-      <section class="cart">
-        <div class = "cart-header">
-          <div class="cart-child-nth"><h3> Item </h3></div>
-          <div class="cart-child-nth"><h3> Description </h3></div>
-          <div class="cart-child-nth"><h3> Quantity </h3></div>
-          <div class="cart-child-last"><h3> Price </h3></div>
+      <div class="cart-items">
+        <div class="cart-child-nth"><img src="img/cold_brew.jpg" alt="Cold Brew"></div>
+        <div class="cart-item-descip cart-child-nth">
+          <a class="item-link" href="cold-brew.html"> Cold Brew </a>
+          <p> Iced / Medium </p>
         </div>
-
-        <div class = "cart-items">
-          <div class="cart-child-nth"><img src="img/cold_brew.jpg" alt="Cold Brew"></div>
-          <div class = "cart-item-descip cart-child-nth">
-            <a class = "item-link" href="cold-brew.html"> Cold Brew </a>
-            <p> Iced / Medium </p>
-          </div>
-          <div class="cart-child-nth"><h4> Qty: 1 </h4></div>
-          <div class="cart-child-last"><h4> $5.25 </h4></div>
+        <div class="cart-child-nth">
+          <h4> Qty: 1 </h4>
         </div>
-
-        <div class = "cart-items">
-          <div class="cart-child-nth"><img src="img/hojicha_latte.jpg" alt="Hojicha Latte"></div>
-          <div class = "cart-item-descip cart-child-nth">
-            <a class = "item-link" href="hojicha-latte.html"> Hojicha Latte </a>
-            <p> Iced / Large </p>
-          </div>
-          <div class="cart-child-nth"><h4> Qty: 1 </h4></div>
-          <div class="cart-child-last"><h4> $7.50 </h4></div>
+        <div class="cart-child-last">
+          <h4> $5.25 </h4>
         </div>
+      </div>
 
-      </section>
-
-      <section class="element">
-        <div class = "cart-box">
-
-          <div class="cart-banner">
-            <p> Subtotal: $12.75 </p>
-            <p> Tax: $0.64 </p>
-            <h3> Total: $13.39 </h3>
-            <a class="button-nav" href="payment.html">Checkout</a>
-          </div>
-        
+      <div class="cart-items">
+        <div class="cart-child-nth"><img src="img/hojicha_latte.jpg" alt="Hojicha Latte"></div>
+        <div class="cart-item-descip cart-child-nth">
+          <a class="item-link" href="hojicha-latte.html"> Hojicha Latte </a>
+          <p> Iced / Large </p>
         </div>
-      </section>
+        <div class="cart-child-nth">
+          <h4> Qty: 1 </h4>
+        </div>
+        <div class="cart-child-last">
+          <h4> $7.50 </h4>
+        </div>
+      </div>
+
     </section>
 
-    <footer>
+    <section class="element">
+      <div class="cart-box">
 
-      <div class = "footer-box">
-      
-        <div class = "footer-nav-element">
-          <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class = "footer-logo"> </a>
-          <a class="footer-nav" href="index.html">Style Guide Home</a>
-          <a class="footer-nav" href="https://github.com/skayiu/Team-13-P02-Company">GitHub</a>
-          <a class="footer-nav" href="product-listing.html">Menu</a>
-          <a class="footer-nav" href="updates.html">Updates</a>
-          <a class="footer-nav" href="contact.html">Contact</a>
-          <a class="footer-nav" href="review.html">Reviews</a>
-          <a class="footer-nav" href="reservations.html">Reservations</a>
+        <div class="cart-banner">
+          <p> Subtotal: $12.75 </p>
+          <p> Tax: $0.64 </p>
+          <h3> Total: $13.39 </h3>
+          <a class="button-nav" href="payment.html">Checkout</a>
         </div>
-  
-  
-        <div class = "footer-nav-element">
-          <h5> Sign up for our email newsletter. </h5>
-  
-          <div class = "footer-form-item">
-  
-            <form class="footer_box_form">
-          
-              <div class="box_form_item">
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="myname@example.com">
-              </div>
-  
-              <input type="submit" value="Subscribe">
-            </form>
-  
-          </div>
-  
-        </div>
-  
+
       </div>
-  
-      <section class = "footer-element">
-        <p> IAT 339 D100 Spring 2023 - P02 Team 13 (Jennifer Wu & Semi Chan) </p>
-      </section>
-    
-    </footer>
+    </section>
+  </section>
 
-  </body>
-  
+  <footer>
+
+    <div class="footer-box">
+
+      <div class="footer-nav-element">
+        <a href="home.html"> <img src="img/cafe_logo.png" alt="Heaven's Cloud Cafe logo" class="footer-logo"> </a>
+        <a class="footer-nav" href="index.html">Style Guide Home</a>
+        <a class="footer-nav" href="https://github.com/skayiu/Team-13-P02-Company">GitHub</a>
+        <a class="footer-nav" href="product-listing.html">Menu</a>
+        <a class="footer-nav" href="updates.html">Updates</a>
+        <a class="footer-nav" href="contact.html">Contact</a>
+        <a class="footer-nav" href="review.html">Reviews</a>
+        <a class="footer-nav" href="reservations.html">Reservations</a>
+      </div>
+
+
+      <div class="footer-nav-element">
+        <h5> Sign up for our email newsletter. </h5>
+
+        <div class="footer-form-item">
+
+          <form class="footer_box_form">
+
+            <div class="box_form_item">
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" placeholder="myname@example.com">
+            </div>
+
+            <input type="submit" value="Subscribe">
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <section class="footer-element">
+      <p> IAT 339 D100 Spring 2023 - P02 Team 13 (Jennifer Wu & Semi Chan) </p>
+    </section>
+
+  </footer>
+
+</body>
+
 </html>
