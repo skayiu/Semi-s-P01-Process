@@ -648,7 +648,7 @@ footer {
   text-decoration-color: #B2C8B0;
 }
 
-.footer-button-nav {
+.footer_box_form input[type=submit] {
   font-size: 0.9rem;
   display: inline-block;
   padding: 0.5rem;
@@ -660,7 +660,7 @@ footer {
   border-radius: 8px;
 }
 
-.footer-button-nav:hover, .footer-button-nav:focus {
+.footer_box_form input[type=submit]:hover, .footer_box_form input[type=submit]:focus {
   color: white;
   background-color: #B2C8B0;
 }
