@@ -101,16 +101,19 @@ code {
   display: block;
 }
 
+/* In text links */
 .link {
   color: #AC9584;
   text-decoration: none;
 }
 
+/* Used in product pages (cold-brew.html and hojicha-latte.html) */
 .reviews-link {
   padding: 0 0.5rem 0 0.5rem;
   color: #AC9584;
 }
 
+/* Used in cart and product listing for listing name */
 .item-link {
   margin-bottom: 0.25rem;
   font-size: 1rem;
@@ -223,10 +226,12 @@ a:hover, a:focus {
   opacity: 0.6;
 }
 
+/* Sets the sizing of the images in the order confirmation pages: confirm-coldbrew.html and confirm-hojicha.html */
 .img-confirm{
   width: 20%;
 }
 
+/* Sizing of the company logo */
 .logo-image{
   width: 335.1px;
   height: 52.5px;
@@ -490,11 +495,12 @@ input[type="add"] {
 }
 
 /* Reservation Form Elements*/
-
+/* Banner box is used for banner information at the top of the page*/
 .box-banner{
   text-align: center;
 }
 
+/* Main flexbox container */
 .box-main{
   display: flex;
   flex-direction: column;
@@ -502,6 +508,7 @@ input[type="add"] {
   align-items: center;
 }
 
+/* Box that contains a form - used for payment, reservations, reviews */
 .box_form h4{
   margin-bottom: 1rem;
 }
@@ -521,6 +528,7 @@ input[type="add"] {
   width: 100%;
 }
 
+/* Smaller form elements can be placed into column format to reduce white space*/
 .box_form_item_col{
   margin-right: 1rem;
 }
@@ -539,6 +547,11 @@ input[type="add"] {
   border-color: #B2C8B0;
 }
 
+.box_form textarea{
+  width: 100%;
+  overflow: auto;
+  margin-top: 0.5rem;
+}
 
 /* Used the following example: https://stackoverflow.com/questions/43427993/change-the-color-of-a-input-field-when-selected */
 input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[type=time]:focus, input[type=number]:focus, input[type=month]:focus {
@@ -547,12 +560,6 @@ input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, input[t
 
 textarea[name=notes]:focus {
   outline: 2px solid #B2C8B0;
-}
-
-.box_form textarea{
-  width: 100%;
-  overflow: auto;
-  margin-top: 0.5rem;
 }
 
 /* Styling for checkout/booking form */
@@ -589,12 +596,13 @@ textarea[name=notes]:focus {
   padding: 0 2rem 0 2rem;
 }
 
-.box-confirm{
+/* A small box that continues the item buttons to continue browsing or go to cart*/
+.box-continue{
   display: flex;
   text-align: center;
 }
 
-.box-confirm-item{
+.box-continue-item{
   margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
