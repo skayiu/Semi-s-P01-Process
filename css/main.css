@@ -301,15 +301,35 @@ p {
   padding-bottom: 1.5em;
 }
 
+.cart-box {
+  
+
+}
+
+.cart-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .cart-items {
   display: flex;
   flex-direction: row;
-  padding: 1em;
+  justify-content: space-between;
 }
 
-.cart-sub {
+.cart-item-descrip {
   display: flex;
   flex-direction: column;
+  
+}
+
+.cart-image {
+  /*
+  width: 90px;
+  height: 135px;
+  */
+  width: 15%;
   padding: 1em;
 }
 
