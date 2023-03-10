@@ -1,8 +1,9 @@
 /*
-  Main colour: Beige #E7D6C6
-  Sub colour: Brown #AC9584
-  Accent colour 1: White #FFFFFF
-  Accent colour 2: Green #B2C8B0
+  Colour palette hex code references:
+    Main colour: Beige #E7D6C6
+    Sub colour: Brown #AC9584
+    Accent colour 1: White #FFFFFF
+    Accent colour 2: Green #B2C8B0
 */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
@@ -25,11 +26,8 @@ body {
   color: #AC9584;
 }
 
-/* 2) Adding a space between the sections */
 section{
   margin-bottom:2rem; 
-
-  /* Set a background color to clearly see the change in section spacing */
   background-color: white;  
   padding: 1rem;
 }
@@ -88,18 +86,24 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-  /*text-decoration: none;
-  background-color: white;*/
   color: white;
   background-color: #B2C8B0;
 }
 
 code {
-  background-color: rgb(178, 200, 176);
+  background-color: #B2C8B0;
   color: white;
   padding: 0.5rem;
   display: block;
 }
+
+input, textarea{
+  font-family: "Quicksand", Helvetica, sans-serif;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
 
 /* In text links */
 .link {
@@ -127,15 +131,8 @@ code {
   text-decoration: underline;
 }
 
-input, textarea{
-  font-family: "Quicksand", Helvetica, sans-serif;
-}
+/* Styling for navigation bar buttons */
 
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
@@ -152,6 +149,31 @@ input, textarea{
   color: white;
   background-color: #B2C8B0;
 }
+
+/* Styling for any buttons found on pages, like the 'Explore the Menu' button on home page, 
+'Add to cart' button on product page, 'Book now' button on reservations page, etc */
+
+.button-add {
+  display: inline-block;
+  margin: 0.5rem 0 0 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+}
+
+.button-add:hover, .button-add:focus {
+  color: white;
+  background-color: #B2C8B0;
+}
+
+/* Styling for the submit/reset button */
 
 input[type=submit] {
   display: inline-block;
@@ -191,27 +213,8 @@ input[type=reset]:hover, input[type=reset]:focus {
   border: 2px solid #B2C8B0;
 }
 
-.button-add {
-  display: inline-block;
-  margin: 0.5rem 0 0 0;
-  padding: 0.5rem;
-  font-size: 1rem;
-  width: 10rem;
-  text-align: center;
-  color: white;
-  background-color: #AC9584;
-  text-decoration: none;
-  transition-property: background-color; 
-  transition-duration: 0.5s;
-  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
-}
+/* Styling for in-text link */
 
-.button-add:hover, .button-add:focus {
-  color: white;
-  background-color: #B2C8B0;
-}
-
-/* 3) Adding a different hover and focus state styling to in-text link */
 a {
   color: #AC9584 ;
 }
@@ -221,7 +224,7 @@ a:hover, a:focus {
   color: #B2C8B0;
 }
 
-/* 4)  Adding a different hover and focus state styling to image as link */
+/* Styling for image class */
 /* Used the following example: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .image:hover, .image:focus {
   opacity: 0.6;
@@ -238,7 +241,9 @@ a:hover, a:focus {
   height: 52.5px;
 }
 
-/* 6) Building Forms (Shay Howe) - https://learn.shayhowe.com/html-css/building-forms/ */
+/* Styling for labels and inputs */
+/* Reference from Building Forms (Shay Howe) - https://learn.shayhowe.com/html-css/building-forms/ */
+
 label {
   color: #AC9584;
 }
@@ -260,6 +265,8 @@ input:hover, input:focus {
   border-color: #B2C8B0;
 }
 
+/* Styling for the radio button upon selecting */
+
 input [type='radio']:after {
   background-color: #B2C8B0;
 }
@@ -272,8 +279,9 @@ input [type='radio']:checked:after {
   TEXT ELEMENTS -------------------
 */
 
-/* 5) Changing the width of paragraph element */
+/* Changing the width of paragraph element */
 /* Followed lecture examples */
+
 p {
   max-width: 100%;
 }
@@ -283,7 +291,7 @@ p {
   COMBINED ELEMENTS -------------------
 */
 
-/* Used the following: https://flexboxfroggy.com/ */
+/* Styling for the product listing page */
 
 .menu-items {
   display: flex;
@@ -320,6 +328,8 @@ p {
   text-align: left;
   padding-bottom: 1.5em;
 }
+
+/* Styling for the cart page */
 
 .cart{
   display: flex;
@@ -367,12 +377,16 @@ p {
   text-align: center;
 }
 
+/* Styling for the branding information on style guide */
+
 .inspiration-items {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-between;
 }
+
+/* Styling for the home page about section */
 
 .about-main {
   display: flex;
@@ -393,6 +407,8 @@ p {
   padding: 0 2em 2em 2em;
 }
 
+/* Styling for the contacts page */
+
 .contact-main {
   display: flex;
   flex-direction: row;
@@ -412,6 +428,8 @@ p {
   flex-direction: column;
   padding: 2em;
 }
+
+/* Styling for the updates page */
 
 .updates-element {
   padding-bottom: 2rem;
@@ -449,11 +467,15 @@ p {
   padding-bottom: 2em;
 }
 
+/* Styling for the payment page */
+
 .payment-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
+/* Styling for the reviews page */
 
 .reviews{
   display: flex;
@@ -529,6 +551,12 @@ input[type="add"] {
   width: 100%;
 }
 
+.box_form textarea{
+  width: 100%;
+  overflow: auto;
+  margin-top: 0.5rem;
+}
+
 /* Smaller form elements can be placed into column format to reduce white space*/
 .box_form_item_col{
   margin-right: 1rem;
@@ -582,6 +610,7 @@ textarea[name=notes]:focus {
 }
 
 /* Styling for checkout/booking form */
+
 .box_booking{
   padding: 1rem;
   margin-bottom: 1rem;
@@ -590,6 +619,7 @@ textarea[name=notes]:focus {
 }
 
 /* Styling for items within the checkout/booking form */
+
 .box_booking_item{
   width: 60%;
   background-color: white;
@@ -654,6 +684,8 @@ footer {
   width: 279.25px;
   height: 43.75px; 
 }
+
+/* Styling for the footer navigation links */
 
 .footer-nav {
   text-decoration: none;
@@ -735,12 +767,6 @@ footer p {
 .footer_box_form input:hover, .footer_box_form textarea:hover, .footer_box_form input:focus, .footer_box_form textarea:focus{
   background-color: white;
   border-color: #B2C8B0;
-}
-
-.box_form textarea{
-  width: 100%;
-  overflow: auto;
-  margin-top: 0.5rem;
 }
 
 /* Stylig for citations */
