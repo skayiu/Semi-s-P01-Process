@@ -742,3 +742,8 @@ footer p {
   overflow: auto;
   margin-top: 0.5rem;
 }
+
+/* Stylig for citations */
+.citations-main {
+  padding: 3em;
+}
