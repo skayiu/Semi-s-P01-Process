@@ -124,6 +124,7 @@ code {
 
 .item-link:hover, .item-link:focus {
   color: #B2C8B0;
+  text-decoration: underline;
 }
 
 input, textarea{
@@ -154,7 +155,7 @@ input, textarea{
 
 input[type=submit] {
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   font-size: 1em;
   color: white;
   background-color: #AC9584;
@@ -551,6 +552,24 @@ input[type="add"] {
   width: 100%;
   overflow: auto;
   margin-top: 0.5rem;
+}
+
+.box_form input[type=submit]{
+  width: 40%;
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1em;
+  background-color: #AC9584;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  border-radius: 8px; /* Used the following example: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons */
+}
+
+.box_form input[type=submit]:hover, .box_form input[type=submit]:focus {
+  color: white;
+  background-color: #B2C8B0;
 }
 
 /* Used the following example: https://stackoverflow.com/questions/43427993/change-the-color-of-a-input-field-when-selected */
